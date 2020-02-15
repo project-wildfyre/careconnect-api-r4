@@ -13,9 +13,7 @@
         <mode value="server"/>
         <resource>
             <type value="Bundle"/>
-            <profile>
-                <reference value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
-            </profile>
+            <profile value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
             <interaction>
                 <code value="create"/>
             </interaction>

@@ -13,9 +13,7 @@
         <mode value="server"/>
          <resource>
             <type value="Flag"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Flag-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -40,9 +38,7 @@
         </resource>
         <resource>
             <type value="HealthcareService"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-HealthcareService-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -62,9 +58,7 @@
         </resource>
         <resource>
             <type value="Location"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Location-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -94,9 +88,7 @@
         </resource>
         <resource>
             <type value="Organization"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Organization-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -127,9 +119,7 @@
         </resource>
         <resource>
             <type value="Patient"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Patient-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -191,9 +181,7 @@
         </resource>
         <resource>
             <type value="Practitioner"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Practitioner-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -224,9 +212,7 @@
         </resource>
         <resource>
             <type value="PractitionerRole"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-PractitionerRole-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -257,9 +243,7 @@
         </resource>
         <resource>
             <type value="Procedure"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Procedure-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"/>
             <interaction>
                 <code value="read"/>
             </interaction>

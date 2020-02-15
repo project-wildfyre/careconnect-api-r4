@@ -4,13 +4,13 @@
   <id value="foundation"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Foundation API Capability Statement</h2><div><p>Minimal conformance requirements for a Foundation API. This would typically be found on health Systems</p>
-</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th></tr><tr><td>Flag</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>HealthcareService</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Location</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Organization</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Patient</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Practitioner</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>PractitionerRole</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Procedure</td><td>y</td><td>y</td><td></td><td></td></tr></table></div>
+</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th></tr><tr><td>Flag</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>HealthcareService</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Location</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Organization</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Patient</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Practitioner</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>PractitionerRole</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Procedure</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure</a></td><td>y</td><td>y</td><td></td><td></td></tr></table></div>
   </text>
   <url value="https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/foundation"/>
   <version value="4.0.0"/>
   <name value="Care Connect Foundation API Capability Statement"/>
   <status value="active"/>
-  <date value="2020-02-15T18:42:35+00:00"/>
+  <date value="2020-02-15T19:11:28+00:00"/>
   <publisher value="mayfield-is.co.uk"/>
   <contact>
     <telecom>
@@ -32,6 +32,7 @@
     <mode value="server"/>
     <resource>
       <type value="Flag"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -56,6 +57,7 @@
     </resource>
     <resource>
       <type value="HealthcareService"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -75,6 +77,7 @@
     </resource>
     <resource>
       <type value="Location"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -104,6 +107,7 @@
     </resource>
     <resource>
       <type value="Organization"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -134,6 +138,7 @@
     </resource>
     <resource>
       <type value="Patient"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -195,6 +200,7 @@
     </resource>
     <resource>
       <type value="Practitioner"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -225,6 +231,7 @@
     </resource>
     <resource>
       <type value="PractitionerRole"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -255,6 +262,7 @@
     </resource>
     <resource>
       <type value="Procedure"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"/>
       <interaction>
         <code value="read"/>
       </interaction>

@@ -10,13 +10,13 @@
   fhir:Resource.id [ fhir:value "medication"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Medication Capability Statement</h2><div><p>Minimal conformance requirements for a Medication API. This would typically be found on Prescribing and Dispensing systems</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Immunization</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Medication</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationAdministration</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationDispense</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationRequest</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationStatement</td><td>y</td><td>y</td><td></td><td></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Medication Capability Statement</h2><div><p>Minimal conformance requirements for a Medication API. This would typically be found on Prescribing and Dispensing systems</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Immunization</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Medication</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationAdministration</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationAdministration\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationAdministration</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationDispense</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationRequest</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationStatement</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement</a></td><td>y</td><td>y</td><td></td><td></td></tr></table></div>"
   ];
   fhir:CapabilityStatement.url [ fhir:value "https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/medication"];
   fhir:CapabilityStatement.version [ fhir:value "4.0.0"];
   fhir:CapabilityStatement.name [ fhir:value "Care Connect Medication Capability Statement"];
   fhir:CapabilityStatement.status [ fhir:value "active"];
-  fhir:CapabilityStatement.date [ fhir:value "2020-02-15T18:42:35+00:00"^^xsd:dateTime];
+  fhir:CapabilityStatement.date [ fhir:value "2020-02-15T19:11:28+00:00"^^xsd:dateTime];
   fhir:CapabilityStatement.publisher [ fhir:value "mayfield-is.co.uk"];
   fhir:CapabilityStatement.contact [
      fhir:index 0;
@@ -47,6 +47,10 @@
      fhir:CapabilityStatement.rest.resource [
        fhir:index 0;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Immunization" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -92,6 +96,10 @@
      ], [
        fhir:index 1;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Medication" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -113,6 +121,10 @@
      ], [
        fhir:index 2;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "MedicationAdministration" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationAdministration";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationAdministration>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -154,6 +166,10 @@
      ], [
        fhir:index 3;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "MedicationDispense" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -195,6 +211,10 @@
      ], [
        fhir:index 4;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "MedicationRequest" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -241,6 +261,10 @@
      ], [
        fhir:index 5;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "MedicationStatement" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]

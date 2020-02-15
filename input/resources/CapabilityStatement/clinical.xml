@@ -13,9 +13,7 @@
         <mode value="server"/>
         <resource>
             <type value="AllergyIntolerance"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-AllergyIntolerance-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-AllergyIntolerance"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -56,9 +54,7 @@
         </resource>
         <resource>
             <type value="Condition"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Condition-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Condition"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -98,9 +94,7 @@
         </resource>
            <resource>
             <type value="Procedure"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Procedure-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure"/>
             <interaction>
                 <code value="read"/>
             </interaction>

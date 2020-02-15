@@ -13,9 +13,7 @@
         <mode value="server"/>
         <resource>
             <type value="Binary"/>
-             <profile>
-                <reference value="http://hl7.org/fhir/StructureDefinition/Binary"></reference>
-            </profile>
+             <profile value="http://hl7.org/fhir/StructureDefinition/Binary" />
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -31,9 +29,7 @@
         </resource>
          <resource>
             <type value="Composition"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Composition-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Composition"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -74,9 +70,7 @@
         </resource>
         <resource>
             <type value="DocumentReference"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-DocumentReference-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DocumentReference"/>
             <interaction>
                 <code value="read"/>
             </interaction>

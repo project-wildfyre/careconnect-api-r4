@@ -10,13 +10,13 @@
   fhir:Resource.id [ fhir:value "document"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Document API Capability Statement</h2><div><p>Minimal conformance requirements for a Document API.This would typically be found on Electronic Document Management Systems</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Binary</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Composition</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>DocumentReference</td><td>y</td><td>y</td><td></td><td></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Document API Capability Statement</h2><div><p>Minimal conformance requirements for a Document API.This would typically be found on Electronic Document Management Systems</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Binary</td><td><a href=\"http://hl7.org/fhir/StructureDefinition/Binary\">http://hl7.org/fhir/StructureDefinition/Binary</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Composition</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Composition\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Composition</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>DocumentReference</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DocumentReference\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DocumentReference</a></td><td>y</td><td>y</td><td></td><td></td></tr></table></div>"
   ];
   fhir:CapabilityStatement.url [ fhir:value "https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/document"];
   fhir:CapabilityStatement.version [ fhir:value "4.0.0"];
   fhir:CapabilityStatement.name [ fhir:value "Care Connect Document API Capability Statement"];
   fhir:CapabilityStatement.status [ fhir:value "active"];
-  fhir:CapabilityStatement.date [ fhir:value "2020-02-15T18:42:35+00:00"^^xsd:dateTime];
+  fhir:CapabilityStatement.date [ fhir:value "2020-02-15T19:11:28+00:00"^^xsd:dateTime];
   fhir:CapabilityStatement.publisher [ fhir:value "mayfield-is.co.uk"];
   fhir:CapabilityStatement.contact [
      fhir:index 0;
@@ -47,6 +47,10 @@
      fhir:CapabilityStatement.rest.resource [
        fhir:index 0;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Binary" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "http://hl7.org/fhir/StructureDefinition/Binary";
+         fhir:link <http://hl7.org/fhir/StructureDefinition/Binary>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -64,6 +68,10 @@
      ], [
        fhir:index 1;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Composition" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Composition";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Composition>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -106,6 +114,10 @@
      ], [
        fhir:index 2;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "DocumentReference" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DocumentReference";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DocumentReference>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]

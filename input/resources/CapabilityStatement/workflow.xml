@@ -13,9 +13,7 @@
         <mode value="server"/>
          <resource>
             <type value="Encounter"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Encounter-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -60,9 +58,7 @@
         </resource>
         <resource>
             <type value="EpisodeOfCare"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-EpisodeOfCare-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-EpisodeOfCare"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -91,10 +87,8 @@
             </searchParam>
         </resource>
          <resource>
-            <type value="ReferralRequest"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-ReferralRequest-1"/>
-            </profile>
+            <type value="ServiceRequest"/>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest"/>
             <interaction>
                 <code value="read"/>
             </interaction>

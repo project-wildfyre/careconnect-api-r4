@@ -3,13 +3,13 @@
   "id": "medication",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Medication Capability Statement</h2><div><p>Minimal conformance requirements for a Medication API. This would typically be found on Prescribing and Dispensing systems</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Immunization</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Medication</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationAdministration</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationDispense</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationRequest</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationStatement</td><td>y</td><td>y</td><td></td><td></td></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Medication Capability Statement</h2><div><p>Minimal conformance requirements for a Medication API. This would typically be found on Prescribing and Dispensing systems</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Immunization</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Medication</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationAdministration</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationAdministration\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationAdministration</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationDispense</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationRequest</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>MedicationStatement</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement</a></td><td>y</td><td>y</td><td></td><td></td></tr></table></div>"
   },
   "url": "https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/medication",
   "version": "4.0.0",
   "name": "Care Connect Medication Capability Statement",
   "status": "active",
-  "date": "2020-02-15T18:42:35+00:00",
+  "date": "2020-02-15T19:11:28+00:00",
   "publisher": "mayfield-is.co.uk",
   "contact": [
     {
@@ -43,6 +43,7 @@
       "resource": [
         {
           "type": "Immunization",
+          "profile": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization",
           "interaction": [
             {
               "code": "read"
@@ -90,6 +91,7 @@
         },
         {
           "type": "Medication",
+          "profile": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication",
           "interaction": [
             {
               "code": "read"
@@ -113,6 +115,7 @@
         },
         {
           "type": "MedicationAdministration",
+          "profile": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationAdministration",
           "interaction": [
             {
               "code": "read"
@@ -156,6 +159,7 @@
         },
         {
           "type": "MedicationDispense",
+          "profile": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense",
           "interaction": [
             {
               "code": "read"
@@ -199,6 +203,7 @@
         },
         {
           "type": "MedicationRequest",
+          "profile": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest",
           "interaction": [
             {
               "code": "read"
@@ -247,6 +252,7 @@
         },
         {
           "type": "MedicationStatement",
+          "profile": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationStatement",
           "interaction": [
             {
               "code": "read"

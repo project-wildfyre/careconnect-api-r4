@@ -4,13 +4,13 @@
   <id value="diagnostics"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Diagnostic Capability Statement</h2><div><p>Minimal conformance requirements for a Diagnostic API. This would typically be found on Patient Administration Systems and Laboratory Information Systems</p>
-</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th></tr><tr><td>DiagnosticReport</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Observation</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Specimen</td><td>y</td><td>y</td><td></td><td></td></tr></table></div>
+</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th></tr><tr><td>DiagnosticReport</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Observation</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Specimen</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen</a></td><td>y</td><td>y</td><td></td><td></td></tr></table></div>
   </text>
   <url value="https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/diagnostics"/>
   <version value="4.0.0"/>
   <name value="Care Connect Diagnostic Capability Statement"/>
   <status value="active"/>
-  <date value="2020-02-15T18:42:35+00:00"/>
+  <date value="2020-02-15T19:11:28+00:00"/>
   <publisher value="mayfield-is.co.uk"/>
   <contact>
     <telecom>
@@ -32,6 +32,7 @@
     <mode value="server"/>
     <resource>
       <type value="DiagnosticReport"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -71,6 +72,7 @@
     </resource>
     <resource>
       <type value="Observation"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -110,6 +112,7 @@
     </resource>
     <resource>
       <type value="Specimen"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen"/>
       <interaction>
         <code value="read"/>
       </interaction>

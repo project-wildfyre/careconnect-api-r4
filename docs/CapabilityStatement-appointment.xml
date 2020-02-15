@@ -4,13 +4,13 @@
   <id value="appointment"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect Appointment Capability Statement</h2><div><p>Minimal conformance requirements for a Appointment API. This would typically be found on Patient Administration Systems and Electronic Patient Record Systems</p>
-</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th></tr><tr><td>Appointment</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Schedule</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Slot</td><td>y</td><td>y</td><td></td><td></td></tr></table></div>
+</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th></tr><tr><td>Appointment</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Appointment">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Appointment</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Schedule</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Schedule">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Schedule</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Slot</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Slot">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Slot</a></td><td>y</td><td>y</td><td></td><td></td></tr></table></div>
   </text>
   <url value="https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/appointment"/>
   <version value="4.0.0"/>
   <name value="Care Connect Appointment Capability Statement"/>
   <status value="active"/>
-  <date value="2020-02-15T18:42:35+00:00"/>
+  <date value="2020-02-15T19:11:28+00:00"/>
   <publisher value="mayfield-is.co.uk"/>
   <contact>
     <telecom>
@@ -32,6 +32,7 @@
     <mode value="server"/>
     <resource>
       <type value="Appointment"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Appointment"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -52,6 +53,7 @@
     </resource>
     <resource>
       <type value="Schedule"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Schedule"/>
       <interaction>
         <code value="read"/>
       </interaction>
@@ -71,6 +73,7 @@
     </resource>
     <resource>
       <type value="Slot"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Slot"/>
       <interaction>
         <code value="read"/>
       </interaction>

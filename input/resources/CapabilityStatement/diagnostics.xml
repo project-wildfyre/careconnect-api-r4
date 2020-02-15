@@ -13,9 +13,7 @@
         <mode value="server"/>
         <resource>
             <type value="DiagnosticReport"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-DiagnosticReport-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -55,9 +53,7 @@
         </resource>
         <resource>
             <type value="Observation"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Observation-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Observation"/>
             <interaction>
                 <code value="read"/>
             </interaction>
@@ -97,9 +93,7 @@
         </resource>
         <resource>
             <type value="Specimen"/>
-            <profile>
-                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Specimen-1"/>
-            </profile>
+            <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen"/>
             <interaction>
                 <code value="read"/>
             </interaction>

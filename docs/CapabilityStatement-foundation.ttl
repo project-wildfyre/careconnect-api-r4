@@ -10,13 +10,13 @@
   fhir:Resource.id [ fhir:value "foundation"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Foundation API Capability Statement</h2><div><p>Minimal conformance requirements for a Foundation API. This would typically be found on health Systems</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Flag</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>HealthcareService</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Location</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Organization</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Patient</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Practitioner</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>PractitionerRole</td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Procedure</td><td>y</td><td>y</td><td></td><td></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect Foundation API Capability Statement</h2><div><p>Minimal conformance requirements for a Foundation API. This would typically be found on health Systems</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Flag</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>HealthcareService</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Location</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Organization</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Patient</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Practitioner</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>PractitionerRole</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole</a></td><td>y</td><td>y</td><td></td><td></td></tr><tr><td>Procedure</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure</a></td><td>y</td><td>y</td><td></td><td></td></tr></table></div>"
   ];
   fhir:CapabilityStatement.url [ fhir:value "https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/foundation"];
   fhir:CapabilityStatement.version [ fhir:value "4.0.0"];
   fhir:CapabilityStatement.name [ fhir:value "Care Connect Foundation API Capability Statement"];
   fhir:CapabilityStatement.status [ fhir:value "active"];
-  fhir:CapabilityStatement.date [ fhir:value "2020-02-15T18:42:35+00:00"^^xsd:dateTime];
+  fhir:CapabilityStatement.date [ fhir:value "2020-02-15T19:11:28+00:00"^^xsd:dateTime];
   fhir:CapabilityStatement.publisher [ fhir:value "mayfield-is.co.uk"];
   fhir:CapabilityStatement.contact [
      fhir:index 0;
@@ -47,6 +47,10 @@
      fhir:CapabilityStatement.rest.resource [
        fhir:index 0;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Flag" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -73,6 +77,10 @@
      ], [
        fhir:index 1;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "HealthcareService" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -94,6 +102,10 @@
      ], [
        fhir:index 2;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Location" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Location>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -125,6 +137,10 @@
      ], [
        fhir:index 3;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Organization" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Organization>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -157,6 +173,10 @@
      ], [
        fhir:index 4;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Patient" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -223,6 +243,10 @@
      ], [
        fhir:index 5;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Practitioner" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Practitioner>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -255,6 +279,10 @@
      ], [
        fhir:index 6;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "PractitionerRole" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-PractitionerRole>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
@@ -287,6 +315,10 @@
      ], [
        fhir:index 7;
        fhir:CapabilityStatement.rest.resource.type [ fhir:value "Procedure" ];
+       fhir:CapabilityStatement.rest.resource.profile [
+         fhir:value "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure";
+         fhir:link <https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Procedure>
+       ];
        fhir:CapabilityStatement.rest.resource.interaction [
          fhir:index 0;
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
