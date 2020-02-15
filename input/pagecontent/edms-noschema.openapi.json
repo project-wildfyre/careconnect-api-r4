@@ -1,5 +1,5 @@
 ﻿{
-  "openapi": "3.0.2",
+  "openapi": "4.0.1",
   "info": {
     "title": "EDMS API Capability Statement",
     "description": "Minimal conformance requirements for a EDMS Server exposing a FHIR RESTful API",

@@ -6,7 +6,7 @@
     <publisher value="mayfield-is.co.uk"/>
     <description value="Minimal conformance requirements for a Diagnostic API. This would typically be found on Patient Administration Systems and Laboratory Information Systems"/>
     <kind value="requirements"/>
-    <fhirVersion value="3.0.2"/>
+    <fhirVersion value="4.0.1"/>
     <acceptUnknown value="extensions"/>
     <format value="application/fhir+json"/>
     <rest>

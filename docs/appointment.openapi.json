@@ -1,5 +1,5 @@
 ﻿{
-  "openapi": "3.0.2",
+  "openapi": "4.0.1",
   "info": {
     "title": "Care Connect Appointment Capability Statement",
     "description": "Minimal conformance requirements for a Appointment API. This would typically be found on Patient Administration Systems and Electronic Patient Record Systems",

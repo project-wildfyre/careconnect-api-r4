@@ -26,7 +26,7 @@
     </coding>
   </jurisdiction>
   <kind value="instance"/>
-  <fhirVersion value="3.0.2"/>
+  <fhirVersion value="4.0.1"/>
   <format value="application/fhir+json"/>
   <rest>
     <mode value="server"/>

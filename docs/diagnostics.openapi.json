@@ -1,5 +1,5 @@
 ﻿{
-  "openapi": "3.0.2",
+  "openapi": "4.0.1",
   "info": {
     "title": "Care Connect Diagnostic Capability Statement",
     "description": "Minimal conformance requirements for a Diagnostic API. This would typically be found on Patient Administration Systems and Laboratory Information Systems",
