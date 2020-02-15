@@ -96,13 +96,6 @@
       <name value="Workflow API"/>
       <description value="Workflow API Conformance"/>
     </resource>
-   <resource>
-      <reference>
-        <reference value="SearchParameter/careconnect-patient-gender"/>
-      </reference>
-      <name value="Patient Gender"/>
-      <description value="Patient Gender description"/>
-    </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>

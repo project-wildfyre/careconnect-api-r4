@@ -11,7 +11,7 @@
   "title": "Care Connect API",
   "status": "draft",
   "experimental": false,
-  "date": "2020-02-15T20:57:59+00:00",
+  "date": "2020-02-15T21:16:35+00:00",
   "publisher": "mayfield-is.co.uk",
   "contact": [
     {
@@ -406,38 +406,6 @@
         },
         "name": "Workflow API",
         "description": "Workflow API Conformance"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "SearchParameter"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "SearchParameter-careconnect-patient-gender.html"
-          }
-        ],
-        "reference": {
-          "reference": "SearchParameter/careconnect-patient-gender"
-        },
-        "name": "Patient Gender",
-        "description": "Patient Gender description"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Patient"
-          },
-          {
-            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "Patient-example.html"
-          }
-        ],
-        "reference": {
-          "reference": "Patient/example"
-        }
       }
     ],
     "page": {

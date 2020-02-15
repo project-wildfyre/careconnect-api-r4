@@ -6,9 +6,6 @@
   "extensions": [],
   "profiles": {},
   "usage": {
-    "http://example.org/fhir/uv/myig/StructureDefinition/ext-myExtension": [
-      "Patient"
-    ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"
     ],

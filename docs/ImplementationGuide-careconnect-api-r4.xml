@@ -12,7 +12,7 @@
   <title value="Care Connect API"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2020-02-15T20:57:59+00:00"/>
+  <date value="2020-02-15T21:16:35+00:00"/>
   <publisher value="mayfield-is.co.uk"/>
   <contact>
     <telecom>
@@ -275,30 +275,6 @@
       </reference>
       <name value="Workflow API"/>
       <description value="Workflow API Conformance"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="SearchParameter"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="SearchParameter-careconnect-patient-gender.html"/>
-      </extension>
-      <reference>
-        <reference value="SearchParameter/careconnect-patient-gender"/>
-      </reference>
-      <name value="Patient Gender"/>
-      <description value="Patient Gender description"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Patient"/>
-      </extension>
-      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
-        <valueUri value="Patient-example.html"/>
-      </extension>
-      <reference>
-        <reference value="Patient/example"/>
-      </reference>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
