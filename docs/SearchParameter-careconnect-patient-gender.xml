@@ -3,11 +3,12 @@
 <SearchParameter xmlns="http://hl7.org/fhir">
   <id value="careconnect-patient-gender"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: careconnect-patient-gender</p><p><b>url</b>: <a href="https://kevinmayfield.github.io/careconnect-api-stu3/SearchParameter/careconnect-patient-gender">https://kevinmayfield.github.io/careconnect-api-stu3/SearchParameter/careconnect-patient-gender</a></p><p><b>version</b>: 3.0.0</p><p><b>name</b>: CareConnectPatientGender</p><p><b>status</b>: draft</p><p><b>experimental</b>: false</p><p><b>date</b>: 23 Sep 2019, 10:48:45</p><p><b>publisher</b>: mayfield-is.co.uk</p><p><b>contact</b>: </p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style="background: LightGoldenRodYellow">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>code</b>: gender</p><p><b>base</b>: Patient</p><p><b>type</b>: token</p><p><b>derivedFrom</b>: <a href="http://hl7.org/fhir/SearchParameter/individual-gender">http://hl7.org/fhir/SearchParameter/individual-gender</a></p><p><b>description</b>: Gender of the patient</p><p><b>expression</b>: Patient.gender</p><p><b>xpath</b>: f:Patient/f:gender</p><p><b>xpathUsage</b>: normal</p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative with Details</b></p><p><b>id</b>: careconnect-patient-gender</p><p><b>url</b>: <a href="https://project-wildfyre.github.io/careconnect-api-r4/SearchParameter/careconnect-patient-gender">https://project-wildfyre.github.io/careconnect-api-r4/SearchParameter/careconnect-patient-gender</a></p><p><b>version</b>: 4.0.0</p><p><b>name</b>: CareConnectPatientGender</p><p><b>derivedFrom</b>: <a href="http://hl7.org/fhir/SearchParameter/individual-gender">http://hl7.org/fhir/SearchParameter/individual-gender</a></p><p><b>status</b>: draft</p><p><b>experimental</b>: false</p><p><b>date</b>: 23 Sep 2019, 10:48:45</p><p><b>publisher</b>: mayfield-is.co.uk</p><p><b>contact</b>: </p><p><b>description</b>: Gender of the patient</p><p><b>jurisdiction</b>: United Kingdom of Great Britain and Northern Ireland (GBR) <span style="background: LightGoldenRodYellow">(Details : {http://unstats.un.org/unsd/methods/m49/m49.htm code '826' = 'United Kingdom of Great Britain and Northern Ireland (GBR))</span></p><p><b>code</b>: gender</p><p><b>base</b>: Patient</p><p><b>type</b>: token</p><p><b>expression</b>: Patient.gender</p><p><b>xpath</b>: f:Patient/f:gender</p><p><b>xpathUsage</b>: normal</p></div>
   </text>
-  <url value="https://kevinmayfield.github.io/careconnect-api-stu3/SearchParameter/careconnect-patient-gender"/>
-  <version value="3.0.0"/>
+  <url value="https://project-wildfyre.github.io/careconnect-api-r4/SearchParameter/careconnect-patient-gender"/>
+  <version value="4.0.0"/>
   <name value="CareConnectPatientGender"/>
+  <derivedFrom value="http://hl7.org/fhir/SearchParameter/individual-gender"/>
   <status value="draft"/>
   <experimental value="false"/>
   <date value="2019-09-23T10:48:45+01:00"/>
@@ -18,6 +19,7 @@
       <value value="kevin.mayfield@mayfield-is.co.uk"/>
     </telecom>
   </contact>
+  <description value="Gender of the patient"/>
   <jurisdiction>
     <coding>
       <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
@@ -27,8 +29,6 @@
   <code value="gender"/>
   <base value="Patient"/>
   <type value="token"/>
-  <derivedFrom value="http://hl7.org/fhir/SearchParameter/individual-gender"/>
-  <description value="Gender of the patient"/>
   <expression value="Patient.gender"/>
   <xpath value="f:Patient/f:gender"/>
   <xpathUsage value="normal"/>

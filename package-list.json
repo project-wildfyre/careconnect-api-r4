@@ -1,27 +1,27 @@
 {
- "package-id" : "careconnect.api.stu3",
- "title" : "Example CareConnect API STU3",
- "canonical" : "https://kevinmayfield.github.io/careconnect-api-stu3",
+ "package-id" : "careconnect.api.r4",
+ "title" : "Example CareConnect API R4",
+ "canonical" : "https://project-wildfyre.github.io/careconnect-api-r4",
  "introduction" : "The introduction that should appear in the FHIR IG registry",
  "list" : [
   {
-   "version": "3.0.0",
-   "fhirversion": "3.0.2",
+   "version": "4.0.0",
+   "fhirversion": "4.0.1",
    "date": "2020-01-04",
    "desc": "Continuous Integration Build (latest in version control)",
-   "path": "http://build.fhir.org/ig/kevinmayfield/careconnect-api-stu3",
+   "path": "http://build.fhir.org/ig/kevinmayfield/careconnect-api-r4",
    "status": "ci-build",
    "current": true,
-   "sequence": "STU3"
+   "sequence": "R4"
   },
   {
-  "version" : "3.0.0",
-   "fhirversion": "3.0.2",
+  "version" : "4.0.0",
+   "fhirversion": "4.0.1",
   "date" : "2020-01-04",
   "desc" : "Initial STU ballot (Mmm yyyy Ballot)",   
-  "path" : "https://kevinmayfield.github.io/careconnect-api-stu3",
+  "path" : "https://project-wildfyre.github.io/careconnect-api-r4",
   "status" : "draft",
    "current": true,
-  "sequence" : "STU3"
+  "sequence" : "R4"
  }]
 }

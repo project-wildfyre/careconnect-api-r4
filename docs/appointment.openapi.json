@@ -4,15 +4,16 @@
     "title": "Care Connect Appointment Capability Statement",
     "description": "Minimal conformance requirements for a Appointment API. This would typically be found on Patient Administration Systems and Electronic Patient Record Systems",
     "license": {
+      "name": "Creative Commons Zero v1.0 Universal",
       "url": "http://spdx.org/licenses/CC0-1.0.html"
     },
-    "version": "3.0.0",
+    "version": "4.0.0",
     "contact": {
       "name": "mayfield-is.co.uk"
     }
   },
   "externalDocs": {
-    "url": "https://kevinmayfield.github.io/careconnect-api-stu3/CapabilityStatement/appointment",
+    "url": "https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/appointment",
     "description": "FHIR CapabilityStatement"
   },
   "paths": {
@@ -28,7 +29,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -38,7 +39,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/CapabilityStatement"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/CapabilityStatement"
                 }
               }
             }
@@ -72,7 +73,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -82,7 +83,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Bundle"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
                 }
               }
             }
@@ -132,7 +133,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -150,7 +151,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Appointment"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Appointment"
                 }
               }
             }
@@ -187,7 +188,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -197,7 +198,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Bundle"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
                 }
               }
             }
@@ -247,7 +248,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -265,7 +266,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Schedule"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Schedule"
                 }
               }
             }
@@ -302,7 +303,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -312,7 +313,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Bundle"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
                 }
               }
             }
@@ -394,7 +395,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -412,7 +413,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Slot"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Slot"
                 }
               }
             }

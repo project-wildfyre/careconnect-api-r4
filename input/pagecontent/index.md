@@ -1,7 +1,7 @@
 ### Introduction
 
 The purpose of this Implementation Guide is to *demonstrate* the API Managment features in FHIR. 
-The guide builds on the [INTEROPen Care Connect STU3 Implementation Guide](https://interopen.github.io/careconnect-base-stu3/) 
+The guide builds on the [INTEROPen Care Connect R4 Implementation Guide](https://interopen.github.io/careconnect-base-r4/) 
 
 Note: From a HL7 FHIR perspective is dependsOn this IG.
 

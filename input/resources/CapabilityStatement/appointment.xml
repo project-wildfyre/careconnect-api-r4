@@ -14,7 +14,7 @@
         <resource>
             <type value="Appointment"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Appointment-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Appointment-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -37,7 +37,7 @@
          <resource>
             <type value="Schedule"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Schedule-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Schedule-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -59,7 +59,7 @@
          <resource>
             <type value="Slot"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Slot-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Slot-1"/>
             </profile>
             <interaction>
                 <code value="read"/>

@@ -1,5 +1,6 @@
 {
-  "fhirVersion": "[3.0.2]",
-  "date": "20200104080056",
-  "name": "careconnect.api.stu3"
+  "version": "4.0.0",
+  "fhirVersion": "[4.0.1]",
+  "date": "20200215184210",
+  "name": "careconnect.api.r4"
 }

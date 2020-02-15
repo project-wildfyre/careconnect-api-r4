@@ -14,7 +14,7 @@
         <resource>
             <type value="AllergyIntolerance"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-AllergyIntolerance-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-AllergyIntolerance-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -57,7 +57,7 @@
         <resource>
             <type value="Condition"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Condition-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Condition-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -99,7 +99,7 @@
            <resource>
             <type value="Procedure"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Procedure-1"/>
             </profile>
             <interaction>
                 <code value="read"/>

@@ -14,7 +14,7 @@
         <resource>
             <type value="Immunization"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Immunization-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Immunization-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -60,7 +60,7 @@
             <resource>
             <type value="Medication"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Medication-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Medication-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -82,7 +82,7 @@
         <resource>
             <type value="MedicationAdministration"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationAdministration-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-MedicationAdministration-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -124,7 +124,7 @@
         <resource>
             <type value="MedicationDispense"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationDispense-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-MedicationDispense-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -166,7 +166,7 @@
         <resource>
             <type value="MedicationRequest"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationRequest-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-MedicationRequest-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -213,7 +213,7 @@
         <resource>
             <type value="MedicationStatement"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-MedicationStatement-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-MedicationStatement-1"/>
             </profile>
             <interaction>
                 <code value="read"/>

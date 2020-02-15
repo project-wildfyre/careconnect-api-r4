@@ -4,15 +4,16 @@
     "title": "Care Connect Document API Capability Statement",
     "description": "Minimal conformance requirements for a Document API.This would typically be found on Electronic Document Management Systems",
     "license": {
+      "name": "Creative Commons Zero v1.0 Universal",
       "url": "http://spdx.org/licenses/CC0-1.0.html"
     },
-    "version": "3.0.0",
+    "version": "4.0.0",
     "contact": {
       "name": "mayfield-is.co.uk"
     }
   },
   "externalDocs": {
-    "url": "https://kevinmayfield.github.io/careconnect-api-stu3/CapabilityStatement/document",
+    "url": "https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/document",
     "description": "FHIR CapabilityStatement"
   },
   "paths": {
@@ -28,7 +29,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -38,7 +39,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/CapabilityStatement"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/CapabilityStatement"
                 }
               }
             }
@@ -72,7 +73,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -82,7 +83,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Bundle"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
                 }
               }
             }
@@ -124,7 +125,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -142,7 +143,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Binary"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Binary"
                 }
               }
             }
@@ -179,7 +180,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -189,7 +190,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Bundle"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
                 }
               }
             }
@@ -272,7 +273,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -290,7 +291,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Composition"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Composition"
                 }
               }
             }
@@ -327,7 +328,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -337,7 +338,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Bundle"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
                 }
               }
             }
@@ -420,7 +421,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -438,7 +439,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/DocumentReference"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/DocumentReference"
                 }
               }
             }

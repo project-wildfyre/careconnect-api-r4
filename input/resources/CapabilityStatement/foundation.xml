@@ -14,7 +14,7 @@
          <resource>
             <type value="Flag"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Flag-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Flag-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -41,7 +41,7 @@
         <resource>
             <type value="HealthcareService"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-HealthcareService-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-HealthcareService-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -63,7 +63,7 @@
         <resource>
             <type value="Location"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Location-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Location-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -95,7 +95,7 @@
         <resource>
             <type value="Organization"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Organization-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Organization-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -128,7 +128,7 @@
         <resource>
             <type value="Patient"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Patient-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Patient-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -164,7 +164,7 @@
             </searchParam>
             <searchParam>
                 <name value="gender"/>
-                <definition value="https://fhir.hl7.orguk/STU3/SearchParameter/careconnect-patient-gender"/>
+                <definition value="https://fhir.hl7.orguk/R4/SearchParameter/careconnect-patient-gender"/>
                 <type value="string"/>
                 <documentation value="Gender of the patient"/>
             </searchParam>
@@ -192,7 +192,7 @@
         <resource>
             <type value="Practitioner"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Practitioner-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Practitioner-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -225,7 +225,7 @@
         <resource>
             <type value="PractitionerRole"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-PractitionerRole-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-PractitionerRole-1"/>
             </profile>
             <interaction>
                 <code value="read"/>
@@ -258,7 +258,7 @@
         <resource>
             <type value="Procedure"/>
             <profile>
-                <reference value="https://fhir.hl7.org.uk/STU3/StructureDefinition/CareConnect-Procedure-1"/>
+                <reference value="https://fhir.hl7.org.uk/R4/StructureDefinition/CareConnect-Procedure-1"/>
             </profile>
             <interaction>
                 <code value="read"/>

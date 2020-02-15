@@ -12,7 +12,7 @@
     }
   },
   "externalDocs": {
-    "url": "https://fhir.hl7.org.uk/STU3/CapabilityStatement/messaging",
+    "url": "https://fhir.hl7.org.uk/R4/CapabilityStatement/messaging",
     "description": "FHIR CapabilityStatement"
   },
   "paths": {

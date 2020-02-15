@@ -1,15 +1,19 @@
 {
-  "package": "careconnect.api.stu3",
-  "fhirVersion": "3.0.2",
+  "package": "careconnect.api.r4",
+  "version": "4.0.0",
+  "fhirVersion": "4.0.1",
   "jurisdiction": "826",
   "extensions": [],
   "profiles": {},
   "usage": {
-    "http://hl7.org/fhir/4.0/StructureDefinition/extension-ImplementationGuide.dependsOn.packageId": [
-      "ImplementationGuide.dependency"
+    "http://example.org/fhir/uv/myig/StructureDefinition/ext-myExtension": [
+      "Patient"
     ],
-    "http://hl7.org/fhir/4.0/StructureDefinition/extension-ImplementationGuide.dependsOn.version": [
-      "ImplementationGuide.dependency"
+    "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
+      "ImplementationGuide.definition"
+    ],
+    "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
+      "ImplementationGuide.definition.resource"
     ]
   }
 }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
-  <id value="careconnect-api-stu3"/>
-  <url value="https://kevinmayfield.github.io/careconnect-api-stu3/ImplementationGuide/careconnect-api-stu3"/>
+  <id value="careconnect-api-r4"/>
+  <url value="https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4"/>
+  <version value="4.0.0"/>
   <name value="Care Connect API"/>
   <title value="Care Connect API"/>
   <status value="draft"/>
@@ -15,7 +16,7 @@
       <value value="kevin.mayfield@mayfield-is.co.uk"/>
     </telecom>
   </contact>
-  <description value="Demonstration of Care Connect STU3 Implementation Guide to support API Management"/>
+  <description value="Demonstration of Care Connect R4 Implementation Guide to support API Management"/>
   <jurisdiction>
     <!-- This will drive SNOMED release used -->
     <coding>
@@ -28,12 +29,12 @@
       -->
     </coding>
   </jurisdiction>
-  <packageId value="careconnect.api.stu3"/>
+  <packageId value="careconnect.api.r4"/>
   <!-- This is whatever FHIR version the IG artifacts are targeting (not the version of this file, which should always be 'current release') -->
-  <fhirVersion value="3.0.2"/>
+  <fhirVersion value="4.0.1"/>
   <dependsOn>
-    <uri value="https://fhir.hl7.org.uk/STU3/ImplementationGuide/careconnect.base.stu3" />
-    <packageId value="careconnect.base.stu3"/>
+    <!-- <uri value="https://project-wildfyre.github.io/uk-testcore-r4/ImplementationGuide/uk.testcore.r4" /> -->
+    <packageId value="uk.testcore.r4"/>
     <version value="dev"/>
   </dependsOn>
   <definition>
@@ -109,7 +110,7 @@
       <generation value="html"/>
       <page>
         <nameUrl value="index.html"/>
-        <title value="Care Connect API STU3"/>
+        <title value="Care Connect API R4"/>
         <generation value="markdown"/>
       </page>
       <page>
@@ -153,5 +154,18 @@
         <generation value="markdown"/>
       </page>
     </page>
+    <parameter>
+      <code value="copyrightyear"/>
+      <value value="2020+"/>
+    </parameter>
+    <!-- releaselabel should be the ballot status for HL7-published IGs. -->
+    <parameter>
+      <code value="releaselabel"/>
+      <value value="CI Build"/>
+    </parameter>
+    <parameter>
+      <code value="find-other-resources"/>
+      <value value="true"/>
+    </parameter>
   </definition>
 </ImplementationGuide>

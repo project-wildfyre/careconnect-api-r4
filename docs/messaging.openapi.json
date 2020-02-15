@@ -4,15 +4,16 @@
     "title": "Care Connect TIE API Capability Statement",
     "description": "Minimal conformance requirements for a TIE Server exposing a FHIR RESTful API. This would typically be found on Trust Integration Systems",
     "license": {
+      "name": "Creative Commons Zero v1.0 Universal",
       "url": "http://spdx.org/licenses/CC0-1.0.html"
     },
-    "version": "3.0.0",
+    "version": "4.0.0",
     "contact": {
       "name": "mayfield-is.co.uk"
     }
   },
   "externalDocs": {
-    "url": "https://kevinmayfield.github.io/careconnect-api-stu3/CapabilityStatement/messaging",
+    "url": "https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/messaging",
     "description": "FHIR CapabilityStatement"
   },
   "paths": {
@@ -28,7 +29,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -38,7 +39,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/CapabilityStatement"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/CapabilityStatement"
                 }
               }
             }
@@ -63,7 +64,7 @@
     "/Bundle": {
       "summary": "Manager for resources of type Bundle",
       "description": "The Manager for resources of type Bundle: provides services to manage the collection of all the Bundle instances",
-      "put": {
+      "post": {
         "summary": "Create a new resource",
         "operationId": "createBundle",
         "requestBody": {
@@ -72,7 +73,7 @@
           "content": {
             "application/fhir+json": {
               "schema": {
-                "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Bundle"
+                "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
               }
             }
           }
@@ -83,7 +84,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/OperationOutcome"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
               }
             }
@@ -101,7 +102,7 @@
             "content": {
               "application/fhir+json": {
                 "schema": {
-                  "$ref": "https://hl7.org/fhir/STU3/fhir.schema.json#/definitions/Bundle"
+                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
                 }
               }
             }

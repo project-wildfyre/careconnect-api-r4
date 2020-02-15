@@ -3,11 +3,13 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
-    <title>CARECONNECT-API-STU3\Messaging API - TTL Representation - FHIR v3.0.2</title>
+    <title>CARECONNECT-API-R4\Messaging API - TTL Representation - FHIR v4.0.1</title>
   
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
-  
+
+    <link rel="stylesheet" href="fhir.css"/>
+     
       <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/bootstrap-fhir.css"/>
@@ -16,9 +18,10 @@
     <link rel="stylesheet" href="assets/css/project.css"/>
     <link rel="stylesheet" href="assets/css/pygments-manni.css"/>
     <link rel="stylesheet" href="assets/css/jquery-ui.css"/>
-
       <!-- Placeholder for child template CSS declarations -->
-  
+
+    <script src="fhir-table-scripts.js" type="text/javascript"> </script>
+
       <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
       <!-- [if lt IE 9]>
     <script src="assets/js/html5shiv.js"></script>
@@ -30,7 +33,7 @@
     <link sizes="114x114" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
     <link sizes="72x72" rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
-    <link rel="shortcut icon" href="assets/ico/favicon.png"/>  
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
   </head>
   <body>
 
@@ -41,7 +44,7 @@
         
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Care Connect API</span><br/> - CI Build</p>
+          <p><span style="font-size:12pt;font-weight:bold">Care Connect API</span><br/>4.0.0 - CI Build</p>
         </div>
       </div>   <!-- /container -->
     </div>    <!-- /segment-header -->
@@ -59,9 +62,9 @@
               <span class="icon-bar"> </span>
               <span class="icon-bar"> </span>
             </button>
-            <a href="http://hl7.org/fhir/STU3/index.html" class="navbar-brand hidden">FHIR</a>
+            <a href="http://hl7.org/fhir/R4/index.html" class="navbar-brand hidden">FHIR</a>
             <div class="nav-collapse collapse navbar-inverse-collapse">
-              <ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+              <ul class="nav navbar-nav">
   <li><a href="index.html">API Home</a></li>
   <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">API Documentation<b class="caret">
@@ -108,7 +111,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-    <!-- ReleaseHeader --><p id="publish-box">Care Connect API - Local Development build (vnull). See the <a href="https://kevinmayfield.github.io/careconnect-api-stu3/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
+    <!-- ReleaseHeader --><p id="publish-box">Care Connect API - Local Development build (v4.0.0). See the <a href="https://project-wildfyre.github.io/careconnect-api-r4/history.html">Directory of published versions</a></p>  <!-- EndReleaseHeader -->
   <a name="root"> </a>
   <h2 id="root">Messaging API - TTL Representation</h2>
   <p>
@@ -133,56 +136,50 @@
 # - resource -------------------------------------------------------------------
 
  a fhir:CapabilityStatement;
-  <a href="http://hl7.org/fhir/STU3/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#id">fhir:value</a> "messaging"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/STU3/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "generated" ];
-     fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;h2&gt;Care Connect TIE API Capability Statement&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Minimal conformance requirements for a TIE Server exposing a FHIR RESTful API. This would typically be found on Trust Integration Systems&lt;/p&gt;\n&lt;/div&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Mode&lt;/td&gt;&lt;td&gt;SERVER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Transaction&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;System History&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;System Search&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;Resource Type&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b&gt;Profile&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b title=\"GET a resource (read interaction)\"&gt;Read&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b title=\"GET all set of resources of the type (search interaction)\"&gt;Search&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b title=\"PUT a new resource version (update interaction)\"&gt;Update&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b title=\"POST a new resource (create interaction)\"&gt;Create&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Bundle&lt;/td&gt;&lt;td&gt;&lt;a href=\"http://hl7.org/fhir/StructureDefinition/Bundle\"&gt;http://hl7.org/fhir/StructureDefinition/Bundle&lt;/a&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;y&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
+  <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot;
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "messaging"];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.text">fhir:DomainResource.text</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "generated" ];
+     fhir:Narrative.div "&lt;div xmlns=\"http://www.w3.org/1999/xhtml\"&gt;&lt;h2&gt;Care Connect TIE API Capability Statement&lt;/h2&gt;&lt;div&gt;&lt;p&gt;Minimal conformance requirements for a TIE Server exposing a FHIR RESTful API. This would typically be found on Trust Integration Systems&lt;/p&gt;\n&lt;/div&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;Mode&lt;/td&gt;&lt;td&gt;SERVER&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Description&lt;/td&gt;&lt;td/&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Transaction&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;System History&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;System Search&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;table&gt;&lt;tr&gt;&lt;th&gt;&lt;b&gt;Resource Type&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b&gt;Profile&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b title=\"GET a resource (read interaction)\"&gt;Read&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b title=\"GET all set of resources of the type (search interaction)\"&gt;Search&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b title=\"PUT a new resource version (update interaction)\"&gt;Update&lt;/b&gt;&lt;/th&gt;&lt;th&gt;&lt;b title=\"POST a new resource (create interaction)\"&gt;Create&lt;/b&gt;&lt;/th&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Bundle&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;y&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;"
   ];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.url">fhir:CapabilityStatement.url</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> "https://kevinmayfield.github.io/careconnect-api-stu3/CapabilityStatement/messaging"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.version">fhir:CapabilityStatement.version</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> "3.0.0"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.name">fhir:CapabilityStatement.name</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> "Care Connect TIE API Capability Statement"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.status">fhir:CapabilityStatement.status</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "active"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.date">fhir:CapabilityStatement.date</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#dateTime">fhir:value</a> "2020-01-04T08:01:49+00:00"^^xsd:dateTime];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.publisher">fhir:CapabilityStatement.publisher</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> "mayfield-is.co.uk"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.contact">fhir:CapabilityStatement.contact</a> [
-     <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/STU3/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
-       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "email" ];
-       <a href="http://hl7.org/fhir/STU3/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> "kevin.mayfield@mayfield-is.co.uk" ]     ]
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.url">fhir:CapabilityStatement.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/messaging"];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.version">fhir:CapabilityStatement.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "4.0.0"];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.name">fhir:CapabilityStatement.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "Care Connect TIE API Capability Statement"];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.status">fhir:CapabilityStatement.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "active"];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.date">fhir:CapabilityStatement.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> "2020-02-15T18:42:35+00:00"^^xsd:dateTime];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.publisher">fhir:CapabilityStatement.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "mayfield-is.co.uk"];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.contact">fhir:CapabilityStatement.contact</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "email" ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> "kevin.mayfield@mayfield-is.co.uk" ]     ]
   ];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.description">fhir:CapabilityStatement.description</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#markdown">fhir:value</a> "Minimal conformance requirements for a TIE Server exposing a FHIR RESTful API. This would typically be found on Trust Integration Systems"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.jurisdiction">fhir:CapabilityStatement.jurisdiction</a> [
-     <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/STU3/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
-       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#uri">fhir:value</a> "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
-       <a href="http://hl7.org/fhir/STU3/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "826" ]     ]
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.description">fhir:CapabilityStatement.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> "Minimal conformance requirements for a TIE Server exposing a FHIR RESTful API. This would typically be found on Trust Integration Systems"];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.jurisdiction">fhir:CapabilityStatement.jurisdiction</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> "http://unstats.un.org/unsd/methods/m49/m49.htm" ];
+       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "826" ]     ]
   ];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.kind">fhir:CapabilityStatement.kind</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "instance"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.fhirVersion">fhir:CapabilityStatement.fhirVersion</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#id">fhir:value</a> "3.0.2"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.acceptUnknown">fhir:CapabilityStatement.acceptUnknown</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "extensions"];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.format">fhir:CapabilityStatement.format</a> [
-     <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "application/fhir+json";
-     <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.kind">fhir:CapabilityStatement.kind</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "instance"];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.fhirVersion">fhir:CapabilityStatement.fhirVersion</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "3.0.2"];
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.format">fhir:CapabilityStatement.format</a> [
+     <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "application/fhir+json";
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0
   ];
-  <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.rest">fhir:CapabilityStatement.rest</a> [
-     <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
-     <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.rest.mode">fhir:CapabilityStatement.rest.mode</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "server" ];
-     <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.rest.resource">fhir:CapabilityStatement.rest.resource</a> [
-       <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
-       <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.rest.resource.type">fhir:CapabilityStatement.rest.resource.type</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "Bundle" ];
-       <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.rest.resource.profile">fhir:CapabilityStatement.rest.resource.profile</a> [
-         <a href="http://hl7.org/fhir/STU3/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/StructureDefinition/Bundle&gt;;
-         <a href="http://hl7.org/fhir/STU3/references.html#Reference#Reference.reference">fhir:Reference.reference</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#string">fhir:value</a> "http://hl7.org/fhir/StructureDefinition/Bundle" ]       ];
-       <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.rest.resource.interaction">fhir:CapabilityStatement.rest.resource.interaction</a> [
-         <a href="http://hl7.org/fhir/STU3/rdf.html#index">fhir:index</a> 0;
-         <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.rest.resource.interaction.code">fhir:CapabilityStatement.rest.resource.interaction.code</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#code">fhir:value</a> "create" ]       ];
-       <a href="http://hl7.org/fhir/STU3/capabilitystatement.html#CapabilityStatement.rest.resource.conditionalUpdate">fhir:CapabilityStatement.rest.resource.conditionalUpdate</a> [ <a href="http://hl7.org/fhir/STU3/datatypes.html#boolean">fhir:value</a> "false"^^xsd:boolean ]     ]
+  <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.rest">fhir:CapabilityStatement.rest</a> [
+     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+     <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.rest.mode">fhir:CapabilityStatement.rest.mode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "server" ];
+     <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.rest.resource">fhir:CapabilityStatement.rest.resource</a> [
+       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+       <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.rest.resource.type">fhir:CapabilityStatement.rest.resource.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "Bundle" ];
+       <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.rest.resource.interaction">fhir:CapabilityStatement.rest.resource.interaction</a> [
+         <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0;
+         <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.rest.resource.interaction.code">fhir:CapabilityStatement.rest.resource.interaction.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> "create" ]       ];
+       <a href="http://hl7.org/fhir/R4/capabilitystatement.html#CapabilityStatement.rest.resource.conditionalUpdate">fhir:CapabilityStatement.rest.resource.conditionalUpdate</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> "false"^^xsd:boolean ]     ]
   ].
-
-&lt;http://hl7.org/fhir/StructureDefinition/Bundle&gt; a fhir:StructureDefinition.
 
 # - ontology header ------------------------------------------------------------
 
@@ -205,8 +202,8 @@
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="9ccd8acd-a394-41a1-ba31-9b82b3ffb1d3">​</a>
-          IG &copy; 2019+ <a style="color: #81BEF7" href="kevin.mayfield@mayfield-is.co.uk">mayfield-is.co.uk</a>.  Package careconnect.api.stu3# based on <a style="color: #81BEF7" href="http://hl7.org/fhir/STU3/">FHIR 3.0.2</a>. Generated <span title="Sat, Jan 4, 2020 08:01+0000">2020-01-04</span>
+        <p><a name="6075c6d3-040f-4833-8f4d-6cfda627bf37">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="kevin.mayfield@mayfield-is.co.uk">mayfield-is.co.uk</a>.  Package careconnect.api.r4#4.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sat, Feb 15, 2020 18:42+0000">2020-02-15</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

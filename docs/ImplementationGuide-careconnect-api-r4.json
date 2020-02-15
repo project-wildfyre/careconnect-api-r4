@@ -1,0 +1,541 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "careconnect-api-r4",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect API</h2><p>The official URL for this implementation guide is: </p><pre>https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4</pre><div><p>Demonstration of Care Connect R4 Implementation Guide to support API Management</p>\n</div></div>"
+  },
+  "url": "https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4",
+  "version": "4.0.0",
+  "name": "Care Connect API",
+  "title": "Care Connect API",
+  "status": "draft",
+  "experimental": false,
+  "date": "2020-02-15T18:42:35+00:00",
+  "publisher": "mayfield-is.co.uk",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "kevin.mayfield@mayfield-is.co.uk"
+        }
+      ]
+    }
+  ],
+  "description": "Demonstration of Care Connect R4 Implementation Guide to support API Management",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "packageId": "careconnect.api.r4",
+  "license": "CC0-1.0",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "dependsOn": [
+    {
+      "packageId": "uk.testcore.r4",
+      "version": "dev"
+    }
+  ],
+  "definition": {
+    "extension": [
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "copyrightyear"
+          },
+          {
+            "url": "value",
+            "valueString": "2020+"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "releaselabel"
+          },
+          {
+            "url": "value",
+            "valueString": "CI Build"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "autoload-resources"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-qa"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/qa"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-temp"
+          },
+          {
+            "url": "value",
+            "valueString": "temp/pages"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-output"
+          },
+          {
+            "url": "value",
+            "valueString": "output"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "path-suppressed-warnings"
+          },
+          {
+            "url": "value",
+            "valueString": "input/ignoreWarnings.txt"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-html"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "template-md"
+          },
+          {
+            "url": "value",
+            "valueString": "template-page-md.html"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-contact"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-context"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-copyright"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-jurisdiction"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-license"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-publisher"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "apply-version"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "active-tables"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      }
+    ],
+    "resource": [
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-appointment.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/appointment"
+        },
+        "name": "Appointment API",
+        "description": "Appointment API Conformance"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-clinical.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/clinical"
+        },
+        "name": "Clinical API",
+        "description": "Clinical API Conformance"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-diagnostics.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/diagnostics"
+        },
+        "name": "Diagnostic API",
+        "description": "Diagnostic API Conformance"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-document.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/document"
+        },
+        "name": "Document API",
+        "description": "Document API Conformance"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-foundation.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/foundation"
+        },
+        "name": "Foundation API",
+        "description": "Foundation API Conformance"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-medication.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/medication"
+        },
+        "name": "Medication API",
+        "description": "Medication API Conformance"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-messaging.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/messaging"
+        },
+        "name": "Messaging API",
+        "description": "Messaging API Conformance."
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-workflow.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/workflow"
+        },
+        "name": "Workflow API",
+        "description": "Workflow API Conformance"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "SearchParameter"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "SearchParameter-careconnect-patient-gender.html"
+          }
+        ],
+        "reference": {
+          "reference": "SearchParameter/careconnect-patient-gender"
+        },
+        "name": "Patient Gender",
+        "description": "Patient Gender description"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Patient"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "Patient-example.html"
+          }
+        ],
+        "reference": {
+          "reference": "Patient/example"
+        }
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Care Connect API R4",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "encounter.html",
+          "title": "Encounter",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "patient.html",
+          "title": "Patient",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "observation.html",
+          "title": "Observation",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "organisation.html",
+          "title": "Organisation",
+          "generation": "markdown"
+        },
+        {
+          "nameUrl": "swagger-pas.html",
+          "title": "OpenAPI PAS",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "swagger-edms.html",
+          "title": "OpenAPI EDMS",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "swagger-messaging.html",
+          "title": "OpenAPI Messging",
+          "generation": "html"
+        },
+        {
+          "nameUrl": "searchparameters.html",
+          "title": "Search Paramters",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "path-resource",
+        "value": "input/capabilities"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/examples"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/extensions"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/models"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/operations"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/profiles"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/resources"
+      },
+      {
+        "code": "path-resource",
+        "value": "input/vocabulary"
+      },
+      {
+        "code": "path-pages",
+        "value": "template/config"
+      },
+      {
+        "code": "path-pages",
+        "value": "input/images"
+      },
+      {
+        "code": "path-tx-cache",
+        "value": "input-cache/txcache"
+      }
+    ]
+  }
+}
