@@ -7,7 +7,6 @@
     <description value="Minimal conformance requirements for a Clinical API. This would typically be found on Electronic Patient Record Systems"/>
     <kind value="requirements"/>
     <fhirVersion value="4.0.1"/>
-    <acceptUnknown value="extensions"/>
     <format value="application/fhir+json"/>
     <rest>
         <mode value="server"/>

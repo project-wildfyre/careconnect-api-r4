@@ -1,5 +1,5 @@
 ﻿{
-  "openapi": "4.0.1",
+  "openapi": "3.0.2",
   "info": {
     "title": "Care Connect Document API Capability Statement",
     "description": "Minimal conformance requirements for a Document API.This would typically be found on Electronic Document Management Systems",

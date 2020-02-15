@@ -1,30 +1,27 @@
 ﻿Care Connect API : Validation Results
 =========================================
 
-err = 36, warn = 18, info = 0
+err = 2, warn = 18, info = 0
 IG Publisher Version: v1.0.64-SNAPSHOT
-Generated Sat Feb 15 19:11:45 GMT 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
+Generated Sat Feb 15 20:58:31 GMT 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
 
- Build Errors : 67 / 2
+ Build Errors : 52 / 2
  /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/examples/Patient-example : 0 / 0
- /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/appointment : 2 / 1
- /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/clinical : 2 / 1
- /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/diagnostics : 2 / 1
- /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/document : 2 / 1
- /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/foundation : 2 / 1
- /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/medication : 2 / 1
- /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/messaging : 3 / 1
- /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/workflow : 2 / 1
- /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/careconnect-api-ig : 1 / 1
+ /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/appointment : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/clinical : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/diagnostics : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/document : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/foundation : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/medication : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/messaging : 1 / 1
+ /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/workflow : 0 / 1
+ /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/careconnect-api-ig : 0 / 1
  /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/searchparameter/careconnect-patient-gender : 0 / 0
 </table>
 == n/a ==
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be careconnect.api.r4
 ERROR: Unable to find name for the resource Patient/example.  Names are mandatory to allow proper population of the artifact list.
 WARNING: Unable to find description for the resource Patient/example.  Descriptions are strongly encouraged to allow proper population of the artifact list.
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-appointment.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 608: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Appointment' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Appointment" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-appointment.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 818: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Schedule' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Schedule" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-appointment.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 1018: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Slot' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Slot" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-appointment.html#/html/body/div/div/div/p/a at Line 163, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-appointment.json.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-appointment.ttl.html#/html/body/div/div/div/p/a at Line 274, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
@@ -33,28 +30,18 @@ ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/Capab
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-clinical.json.html#/html/body/div/div/div/p/a at Line 321, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-clinical.ttl.html#/html/body/div/div/div/p/a at Line 302, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-clinical.xml.html#/html/body/div/div/div/p/a at Line 302, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-diagnostics.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 613: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-DiagnosticReport" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-diagnostics.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 1046: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Specimen" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-diagnostics.html#/html/body/div/div/div/p/a at Line 163, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-diagnostics.json.html#/html/body/div/div/div/p/a at Line 300, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-diagnostics.ttl.html#/html/body/div/div/div/p/a at Line 285, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-diagnostics.xml.html#/html/body/div/div/div/p/a at Line 283, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-document.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 786: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Composition' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Composition" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-document.html#/html/body/div/div/div/p/a at Line 163, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-document.json.html#/html/body/div/div/div/p/a at Line 303, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-document.ttl.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-document.xml.html#/html/body/div/div/div/p/a at Line 284, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-foundation.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 601: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Flag" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-foundation.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 806: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-HealthcareService" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-foundation.html#/html/body/div/div/div/p/a at Line 163, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-foundation.json.html#/html/body/div/div/div/p/a at Line 491, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-foundation.ttl.html#/html/body/div/div/div/p/a at Line 440, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-foundation.xml.html#/html/body/div/div/div/p/a at Line 460, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-medication.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 609: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Immunization" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-medication.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 823: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Medication" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-medication.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 1047: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationAdministration' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationAdministration" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-medication.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 1293: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationDispense" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-medication.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 1526: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-MedicationRequest" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-medication.html#/html/body/div/div/div/p/a at Line 163, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-medication.json.html#/html/body/div/div/div/p/a at Line 441, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-medication.ttl.html#/html/body/div/div/div/p/a at Line 397, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
@@ -63,8 +50,6 @@ ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/Capab
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-messaging.json.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-messaging.ttl.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-messaging.xml.html#/html/body/div/div/div/p/a at Line 190, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-workflow.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 817: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-EpisodeOfCare' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-EpisodeOfCare" cannot be resolved
-ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-workflow.html#/html/body/div/div/div/div/div/div/table/tr/td/a at Line 148, column 1037: The link 'https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest' for "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-ServiceRequest" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-workflow.html#/html/body/div/div/div/p/a at Line 163, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-workflow.json.html#/html/body/div/div/div/p/a at Line 310, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-workflow.ttl.html#/html/body/div/div/div/p/a at Line 293, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
@@ -90,39 +75,22 @@ ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/swagg
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/toc.html#/html/body/div/div/div/p/a at Line 136, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/examples/Patient-example.xml ==
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/CapabilityStatement/appointment.xml ==
-ERROR: /f:CapabilityStatement: Undefined element 'acceptUnknown'
 WARNING: CapabilityStatement/appointment: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-ERROR: CapabilityStatement/appointment: CapabilityStatement.fhirVersion: The value provided ('4.0.1') is not in the value set http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1 (http://hl7.org/fhir/ValueSet/FHIR-version, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.0.1 in http://hl7.org/fhir/FHIR-version)
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/CapabilityStatement/clinical.xml ==
-ERROR: /f:CapabilityStatement: Undefined element 'acceptUnknown'
 WARNING: CapabilityStatement/clinical: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-ERROR: CapabilityStatement/clinical: CapabilityStatement.fhirVersion: The value provided ('4.0.1') is not in the value set http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1 (http://hl7.org/fhir/ValueSet/FHIR-version, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.0.1 in http://hl7.org/fhir/FHIR-version)
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/CapabilityStatement/diagnostics.xml ==
-ERROR: /f:CapabilityStatement: Undefined element 'acceptUnknown'
 WARNING: CapabilityStatement/diagnostics: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-ERROR: CapabilityStatement/diagnostics: CapabilityStatement.fhirVersion: The value provided ('4.0.1') is not in the value set http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1 (http://hl7.org/fhir/ValueSet/FHIR-version, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.0.1 in http://hl7.org/fhir/FHIR-version)
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/CapabilityStatement/document.xml ==
-ERROR: /f:CapabilityStatement: Undefined element 'acceptUnknown'
 WARNING: CapabilityStatement/document: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-ERROR: CapabilityStatement/document: CapabilityStatement.fhirVersion: The value provided ('4.0.1') is not in the value set http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1 (http://hl7.org/fhir/ValueSet/FHIR-version, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.0.1 in http://hl7.org/fhir/FHIR-version)
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/CapabilityStatement/foundation.xml ==
-ERROR: /f:CapabilityStatement: Undefined element 'acceptUnknown'
 WARNING: CapabilityStatement/foundation: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-ERROR: CapabilityStatement/foundation: CapabilityStatement.fhirVersion: The value provided ('4.0.1') is not in the value set http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1 (http://hl7.org/fhir/ValueSet/FHIR-version, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.0.1 in http://hl7.org/fhir/FHIR-version)
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/CapabilityStatement/medication.xml ==
-ERROR: /f:CapabilityStatement: Undefined element 'acceptUnknown'
 WARNING: CapabilityStatement/medication: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-ERROR: CapabilityStatement/medication: CapabilityStatement.fhirVersion: The value provided ('4.0.1') is not in the value set http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1 (http://hl7.org/fhir/ValueSet/FHIR-version, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.0.1 in http://hl7.org/fhir/FHIR-version)
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/CapabilityStatement/messaging.xml ==
-ERROR: /f:CapabilityStatement: Undefined element 'acceptUnknown'
 WARNING: CapabilityStatement/messaging: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 ERROR: CapabilityStatement/messaging: CapabilityStatement: cpb-14: If kind = instance, implementation must be present and software may be present [(kind != 'instance') or implementation.exists()]
-ERROR: CapabilityStatement/messaging: CapabilityStatement.fhirVersion: The value provided ('4.0.1') is not in the value set http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1 (http://hl7.org/fhir/ValueSet/FHIR-version, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.0.1 in http://hl7.org/fhir/FHIR-version)
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/CapabilityStatement/workflow.xml ==
-ERROR: /f:CapabilityStatement: Undefined element 'acceptUnknown'
 WARNING: CapabilityStatement/workflow: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-ERROR: CapabilityStatement/workflow: CapabilityStatement.fhirVersion: The value provided ('4.0.1') is not in the value set http://hl7.org/fhir/ValueSet/FHIR-version|4.0.1 (http://hl7.org/fhir/ValueSet/FHIR-version, and a code is required from this value set) (error message = Unknown Code http://hl7.org/fhir/FHIR-version#4.0.1 in http://hl7.org/fhir/FHIR-version)
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/careconnect-api-ig.xml ==
 WARNING: ImplementationGuide/careconnect-api-r4: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-ERROR: ImplementationGuide/careconnect-api-r4: ImplementationGuide.dependsOn[0]: Profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide, Element 'ImplementationGuide.dependsOn[0].uri': minimum required = 1, but only found 0
 == /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/SearchParameter/careconnect-patient-gender.xml ==

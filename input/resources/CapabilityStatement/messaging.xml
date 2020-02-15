@@ -7,7 +7,6 @@
     <description value="Minimal conformance requirements for a TIE Server exposing a FHIR RESTful API. This would typically be found on Trust Integration Systems"/>
     <kind value="instance"/>
     <fhirVersion value="4.0.1"/>
-    <acceptUnknown value="extensions"/>
     <format value="application/fhir+json"/>
     <rest>
         <mode value="server"/>
