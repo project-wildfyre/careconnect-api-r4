@@ -9,7 +9,7 @@
    "fhirversion": "4.0.1",
    "date": "2020-01-04",
    "desc": "Continuous Integration Build (latest in version control)",
-   "path": "http://build.fhir.org/ig/kevinmayfield/careconnect-api-r4",
+   "path": "http://build.fhir.org/ig/project-wildfyre/careconnect-api-r4",
    "status": "ci-build",
    "current": true,
    "sequence": "R4"

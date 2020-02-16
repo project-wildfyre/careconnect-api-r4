@@ -1,7 +1,7 @@
 ### Introduction
 
 The purpose of this Implementation Guide is to to form a minimal requirement for a UK RESTful API.  
-The guide builds on the [UK Core R4 Conformance Resources - Unofficial](https://project-wildfyre.github.io/careconnect-base-r4/).
+The guide builds on the [UK Core R4 Conformance Resources - Unofficial](https://project-wildfyre.github.io/uk-testcore-r4/).
 
 It is also based on the [INTEROPen Care Connect API](https://nhsconnect.github.io/CareConnectAPI/). 
 

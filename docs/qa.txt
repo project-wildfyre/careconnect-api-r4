@@ -3,9 +3,9 @@
 
 err = 2, warn = 18, info = 0
 IG Publisher Version: v1.0.64-SNAPSHOT
-Generated Sat Feb 15 21:16:50 GMT 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
+Generated Sun Feb 16 06:32:57 GMT 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
 
- Build Errors : 43 / 1
+ Build Errors : 44 / 1
  /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/appointment : 0 / 1
  /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/clinical : 0 / 1
  /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/diagnostics : 0 / 1
@@ -52,6 +52,7 @@ ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/Capab
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-workflow.xml.html#/html/body/div/div/div/p/a at Line 295, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/artifacts.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/encounter.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/index.html#/html/body/div/div/div/div/div/p/a at Line 136, column 26: The link 'https://project-wildfyre.github.io/uk-testcore-r4/' for "UK Core R4 Conformance Resources - Unofficial" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/index.html#/html/body/div/div/div/p/a at Line 161, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/observation.html#/html/body/div/div/div/p/a at Line 194, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/organisation.html#/html/body/div/div/div/p/a at Line 170, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
