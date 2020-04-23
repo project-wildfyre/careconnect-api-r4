@@ -1,11 +1,11 @@
 ﻿Care Connect API : Validation Results
 =========================================
 
-err = 2, warn = 18, info = 0
-IG Publisher Version: v1.0.64-SNAPSHOT
-Generated Sun Feb 16 06:32:57 GMT 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
+err = 1, warn = 9, info = 0
+IG Publisher Version: v1.0.81-SNAPSHOT
+Generated Thu Apr 23 06:42:27 BST 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
 
- Build Errors : 44 / 1
+ Build Errors : 45 / 1
  /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/appointment : 0 / 1
  /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/clinical : 0 / 1
  /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/capabilitystatement/diagnostics : 0 / 1
@@ -17,6 +17,7 @@ Generated Sun Feb 16 06:32:57 GMT 2020. FHIR version 4.0.1 for careconnect.api.r
  /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/input/resources/careconnect-api-ig : 0 / 1
 </table>
 == n/a ==
+ERROR: ImplementationGuide.definition.parameter[21].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
 WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be careconnect.api.r4
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-appointment.html#/html/body/div/div/div/p/a at Line 163, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: /Users/kevinmayfield/Development/wildfyre/careconnect-api-r4/output/CapabilityStatement-appointment.json.html#/html/body/div/div/div/p/a at Line 286, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
