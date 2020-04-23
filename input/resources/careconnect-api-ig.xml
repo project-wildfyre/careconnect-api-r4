@@ -35,7 +35,7 @@
   <dependsOn>
     <uri value="https://project-wildfyre.github.io/uk-testcore-r4/ImplementationGuide/uk.testcore.r4" />
     <packageId value="uk.testcore.r4"/>
-    <version value="4.0.0"/>
+    <version value="dev"/>
   </dependsOn>
   <definition>
     <!-- You don't need to define any groupings.  The IGPublisher will define them for you.  You only need to do so if your IG is 'special' and it's

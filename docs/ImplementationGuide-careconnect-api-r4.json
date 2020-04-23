@@ -11,7 +11,7 @@
   "title": "Care Connect API",
   "status": "draft",
   "experimental": false,
-  "date": "2020-04-23T06:41:55+01:00",
+  "date": "2020-04-23T06:46:59+01:00",
   "publisher": "mayfield-is.co.uk",
   "contact": [
     {
@@ -43,7 +43,7 @@
     {
       "uri": "https://project-wildfyre.github.io/uk-testcore-r4/ImplementationGuide/uk.testcore.r4",
       "packageId": "uk.testcore.r4",
-      "version": "4.0.0"
+      "version": "dev"
     }
   ],
   "definition": {
