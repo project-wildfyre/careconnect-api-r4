@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Care Connect API"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2020-04-23T06:46:59+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-04-30T09:23:00+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "mayfield-is.co.uk"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -462,18 +462,18 @@
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "markdown" ]
        ], [
          fhir:index 5;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "swagger-pas.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "OpenAPI PAS" ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "swagger-foundation.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "OpenAPI Foundation" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 6;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "swagger-edms.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "OpenAPI EDMS" ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "swagger-document.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "OpenAPI Document" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 7;
-         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "swagger-messaging.html" ];
-         fhir:ImplementationGuide.definition.page.title [ fhir:value "OpenAPI Messging" ];
+         fhir:ImplementationGuide.definition.page.nameUrl [ fhir:value "swagger-appointment.html" ];
+         fhir:ImplementationGuide.definition.page.title [ fhir:value "OpenAPI Appointment" ];
          fhir:ImplementationGuide.definition.page.generation [ fhir:value "html" ]
        ], [
          fhir:index 8;

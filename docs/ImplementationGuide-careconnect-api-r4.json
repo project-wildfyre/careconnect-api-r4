@@ -11,7 +11,7 @@
   "title": "Care Connect API",
   "status": "draft",
   "experimental": false,
-  "date": "2020-04-23T06:46:59+01:00",
+  "date": "2020-04-30T09:23:00+01:00",
   "publisher": "mayfield-is.co.uk",
   "contact": [
     {
@@ -478,18 +478,18 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "swagger-pas.html",
-          "title": "OpenAPI PAS",
+          "nameUrl": "swagger-foundation.html",
+          "title": "OpenAPI Foundation",
           "generation": "html"
         },
         {
-          "nameUrl": "swagger-edms.html",
-          "title": "OpenAPI EDMS",
+          "nameUrl": "swagger-document.html",
+          "title": "OpenAPI Document",
           "generation": "html"
         },
         {
-          "nameUrl": "swagger-messaging.html",
-          "title": "OpenAPI Messging",
+          "nameUrl": "swagger-appointment.html",
+          "title": "OpenAPI Appointment",
           "generation": "html"
         },
         {

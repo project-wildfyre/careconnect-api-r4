@@ -127,18 +127,18 @@
         <generation value="markdown"/>
       </page>
       <page>
-        <nameUrl value="swagger-pas.html"/>
-        <title value="OpenAPI PAS"/>
+        <nameUrl value="swagger-foundation.html"/>
+        <title value="OpenAPI Foundation"/>
         <generation value="html"/>
       </page>
       <page>
-        <nameUrl value="swagger-edms.html"/>
-        <title value="OpenAPI EDMS"/>
+        <nameUrl value="swagger-document.html"/>
+        <title value="OpenAPI Document"/>
         <generation value="html"/>
       </page>
       <page>
-        <nameUrl value="swagger-messaging.html"/>
-        <title value="OpenAPI Messging"/>
+        <nameUrl value="swagger-appointment.html"/>
+        <title value="OpenAPI Appointment"/>
         <generation value="html"/>
       </page>
       <page>
