@@ -3,7 +3,7 @@
 
 err = 1, warn = 9, info = 0
 IG Publisher Version: v1.0.84-SNAPSHOT Out of date - current version is v1.0.85-SNAPSHOT
-Generated Thu Apr 30 09:23:13 BST 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
+Generated Thu Apr 30 09:32:38 BST 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
 
  Build Errors : 45 / 1
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\appointment : 0 / 1
