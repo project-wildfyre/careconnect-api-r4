@@ -18,7 +18,7 @@
   fhir:ImplementationGuide.title [ fhir:value "Care Connect API"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
   fhir:ImplementationGuide.experimental [ fhir:value "false"^^xsd:boolean];
-  fhir:ImplementationGuide.date [ fhir:value "2020-05-04T09:07:59+01:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2020-05-04T10:16:19+01:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "mayfield-is.co.uk"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -439,11 +439,11 @@
        ], [
          fhir:index 1;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/implementationguide-page" ];
-         fhir:Extension.valueUri [ fhir:value "CapabilityStatement-PDSAPI.html" ]
+         fhir:Extension.valueUri [ fhir:value "CapabilityStatement-pds.html" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/PDSAPI>;
-         fhir:Reference.reference [ fhir:value "CapabilityStatement/PDSAPI" ]
+         fhir:link <https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/pds>;
+         fhir:Reference.reference [ fhir:value "CapabilityStatement/pds" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "PDS API" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "PDS API" ]

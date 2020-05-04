@@ -11,7 +11,7 @@
   "title": "Care Connect API",
   "status": "draft",
   "experimental": false,
-  "date": "2020-05-04T09:07:59+01:00",
+  "date": "2020-05-04T10:16:19+01:00",
   "publisher": "mayfield-is.co.uk",
   "contact": [
     {
@@ -454,11 +454,11 @@
           },
           {
             "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-            "valueUri": "CapabilityStatement-PDSAPI.html"
+            "valueUri": "CapabilityStatement-pds.html"
           }
         ],
         "reference": {
-          "reference": "CapabilityStatement/PDSAPI"
+          "reference": "CapabilityStatement/pds"
         },
         "name": "PDS API",
         "description": "PDS API"

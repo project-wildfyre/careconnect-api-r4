@@ -98,7 +98,7 @@
     </resource>
     <resource>
       <reference>
-        <reference value="CapabilityStatement/PDSAPI"/>
+        <reference value="CapabilityStatement/pds"/>
       </reference>
       <name value="PDS API"/>
       <description value="PDS API"/>
