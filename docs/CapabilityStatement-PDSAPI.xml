@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="PDSAPI"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>PDSAPICapabilityStatement</h2><div><p>PDS API supports access to the Personal Demographics Service (PDS) - the national electronic database of NHS patient details such as name, address, date of birth and NHS Number.</p>
+</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th></tr><tr><td>Patient</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient</a></td><td>y</td><td>y</td><td>y</td><td></td></tr><tr><td>RelatedPerson</td><td><a href="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson</a></td><td></td><td></td><td>y</td><td></td></tr></table></div>
+  </text>
+  <url value="https://fhir.nhs.uk/R4/CapabilityStatement/PDSAPI-CapabilityStatement"/>
+  <version value="4.0.0"/>
+  <name value="PDSAPICapabilityStatement"/>
+  <title value="PDS API Capability Statement"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2019-12-18T00:00:00+00:00"/>
+  <publisher value="mayfield-is.co.uk"/>
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="kevin.mayfield@mayfield-is.co.uk"/>
+    </telecom>
+  </contact>
+  <description value="PDS API supports access to the Personal Demographics Service (PDS) - the national electronic database of NHS patient details such as name, address, date of birth and NHS Number."/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="Copyright &#xA9; 2019 NHS Digital"/>
+  <kind value="requirements"/>
+  <fhirVersion value="4.0.0"/>
+  <format value="application/fhir+json"/>
+  <patchFormat value="application/json-patch+json"/>
+  <implementationGuide value="https://fhir.nhs.uk/R4/ImplementationGuide/PDSAPI-ImplementationGuide"/>
+  <rest>
+    <mode value="server"/>
+    <security>
+      <cors value="true"/>
+    </security>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination">
+        <extension url="required">
+          <valueString value="family"/>
+        </extension>
+        <extension url="required">
+          <valueString value="given"/>
+        </extension>
+        <extension url="required">
+          <valueString value="gender"/>
+        </extension>
+        <extension url="required">
+          <valueString value="birthdate"/>
+        </extension>
+      </extension>
+      <type value="Patient"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient"/>
+      <interaction>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <interaction>
+        <code value="search-type"/>
+      </interaction>
+      <versioning value="versioned"/>
+      <readHistory value="false"/>
+      <updateCreate value="false"/>
+      <conditionalCreate value="false"/>
+      <conditionalRead value="not-supported"/>
+      <conditionalUpdate value="false"/>
+      <conditionalDelete value="not-supported"/>
+      <searchRevInclude value="RelatedPerson"/>
+      <searchParam>
+        <name value="_id"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+    <resource>
+      <type value="RelatedPerson"/>
+      <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson"/>
+      <interaction>
+        <code value="update"/>
+      </interaction>
+      <versioning value="versioned"/>
+      <readHistory value="false"/>
+      <updateCreate value="false"/>
+      <conditionalCreate value="false"/>
+      <conditionalRead value="not-supported"/>
+      <conditionalUpdate value="false"/>
+      <conditionalDelete value="single"/>
+    </resource>
+  </rest>
+</CapabilityStatement>

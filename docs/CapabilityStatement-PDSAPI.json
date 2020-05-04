@@ -1,0 +1,129 @@
+{
+  "resourceType": "CapabilityStatement",
+  "id": "PDSAPI",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>PDSAPICapabilityStatement</h2><div><p>PDS API supports access to the Personal Demographics Service (PDS) - the national electronic database of NHS patient details such as name, address, date of birth and NHS Number.</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Patient</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient</a></td><td>y</td><td>y</td><td>y</td><td></td></tr><tr><td>RelatedPerson</td><td><a href=\"https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson\">https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson</a></td><td></td><td></td><td>y</td><td></td></tr></table></div>"
+  },
+  "url": "https://fhir.nhs.uk/R4/CapabilityStatement/PDSAPI-CapabilityStatement",
+  "version": "4.0.0",
+  "name": "PDSAPICapabilityStatement",
+  "title": "PDS API Capability Statement",
+  "status": "draft",
+  "experimental": true,
+  "date": "2019-12-18T00:00:00+00:00",
+  "publisher": "mayfield-is.co.uk",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "kevin.mayfield@mayfield-is.co.uk"
+        }
+      ]
+    }
+  ],
+  "description": "PDS API supports access to the Personal Demographics Service (PDS) - the national electronic database of NHS patient details such as name, address, date of birth and NHS Number.",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "copyright": "Copyright © 2019 NHS Digital",
+  "kind": "requirements",
+  "fhirVersion": "4.0.0",
+  "format": [
+    "application/fhir+json"
+  ],
+  "patchFormat": [
+    "application/json-patch+json"
+  ],
+  "implementationGuide": [
+    "https://fhir.nhs.uk/R4/ImplementationGuide/PDSAPI-ImplementationGuide"
+  ],
+  "rest": [
+    {
+      "mode": "server",
+      "security": {
+        "cors": true
+      },
+      "resource": [
+        {
+          "extension": [
+            {
+              "extension": [
+                {
+                  "url": "required",
+                  "valueString": "family"
+                },
+                {
+                  "url": "required",
+                  "valueString": "given"
+                },
+                {
+                  "url": "required",
+                  "valueString": "gender"
+                },
+                {
+                  "url": "required",
+                  "valueString": "birthdate"
+                }
+              ],
+              "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-search-parameter-combination"
+            }
+          ],
+          "type": "Patient",
+          "profile": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Patient",
+          "interaction": [
+            {
+              "code": "read"
+            },
+            {
+              "code": "update"
+            },
+            {
+              "code": "search-type"
+            }
+          ],
+          "versioning": "versioned",
+          "readHistory": false,
+          "updateCreate": false,
+          "conditionalCreate": false,
+          "conditionalRead": "not-supported",
+          "conditionalUpdate": false,
+          "conditionalDelete": "not-supported",
+          "searchRevInclude": [
+            "RelatedPerson"
+          ],
+          "searchParam": [
+            {
+              "name": "_id",
+              "type": "token"
+            }
+          ]
+        },
+        {
+          "type": "RelatedPerson",
+          "profile": "https://fhir.nhs.uk/R4/StructureDefinition/UKCore-RelatedPerson",
+          "interaction": [
+            {
+              "code": "update"
+            }
+          ],
+          "versioning": "versioned",
+          "readHistory": false,
+          "updateCreate": false,
+          "conditionalCreate": false,
+          "conditionalRead": "not-supported",
+          "conditionalUpdate": false,
+          "conditionalDelete": "single"
+        }
+      ]
+    }
+  ]
+}

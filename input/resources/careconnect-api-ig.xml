@@ -96,6 +96,13 @@
       <name value="Workflow API"/>
       <description value="Workflow API Conformance"/>
     </resource>
+    <resource>
+      <reference>
+        <reference value="CapabilityStatement/PDSAPI"/>
+      </reference>
+      <name value="PDS API"/>
+      <description value="PDS API"/>
+    </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->
       <nameUrl value="toc.html"/>
@@ -125,6 +132,11 @@
         <nameUrl value="organisation.html"/>
         <title value="Organisation"/>
         <generation value="markdown"/>
+      </page>
+      <page>
+        <nameUrl value="swagger-pds.html"/>
+        <title value="OpenAPI PDS"/>
+        <generation value="html"/>
       </page>
       <page>
         <nameUrl value="swagger-foundation.html"/>

@@ -11,7 +11,7 @@
   "title": "Care Connect API",
   "status": "draft",
   "experimental": false,
-  "date": "2020-04-30T09:32:23+01:00",
+  "date": "2020-05-04T09:07:59+01:00",
   "publisher": "mayfield-is.co.uk",
   "contact": [
     {
@@ -445,6 +445,23 @@
         },
         "name": "Workflow API",
         "description": "Workflow API Conformance"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CapabilityStatement"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CapabilityStatement-PDSAPI.html"
+          }
+        ],
+        "reference": {
+          "reference": "CapabilityStatement/PDSAPI"
+        },
+        "name": "PDS API",
+        "description": "PDS API"
       }
     ],
     "page": {
@@ -476,6 +493,11 @@
           "nameUrl": "organisation.html",
           "title": "Organisation",
           "generation": "markdown"
+        },
+        {
+          "nameUrl": "swagger-pds.html",
+          "title": "OpenAPI PDS",
+          "generation": "html"
         },
         {
           "nameUrl": "swagger-foundation.html",

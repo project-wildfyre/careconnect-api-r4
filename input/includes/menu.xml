@@ -11,16 +11,17 @@
       <li><a href="organisation.html">Organisation</a></li>
     </ul>
   </li>
- <!-- <li class="dropdown">
+  <li class="dropdown">
     <a data-toggle="dropdown" href="#" class="dropdown-toggle">OpenAPI<b class="caret">
     </b>
     </a>
     <ul class="dropdown-menu">
-      <li><a href="swagger-pas.html">PAS</a></li>
-      <li><a href="swagger-edms.html">EDMS</a></li>
-      <li><a href="swagger-messaging.html">Messaging (TIE)</a></li>
+      <li><a href="swagger-pds.html">PDS Test</a></li>
+      <li><a href="swagger-foundation.html">PAS</a></li>
+      <li><a href="swagger-document.html">EDMS</a></li>
+      <li><a href="swagger-appointment.html">Messaging (TIE)</a></li>
     </ul>
   </li>
-  <li><a href="searchparameters.html">Search Parameters</a></li> -->
+  <li><a href="searchparameters.html">Search Parameters</a></li>
   <li><a href="artifacts.html">Capability Requirements</a></li>
 </ul>      
