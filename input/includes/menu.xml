@@ -19,7 +19,8 @@
       <li><a href="swagger-pds.html">PDS Test</a></li>
       <li><a href="swagger-foundation.html">PAS</a></li>
       <li><a href="swagger-document.html">EDMS</a></li>
-      <li><a href="swagger-appointment.html">Messaging (TIE)</a></li>
+      <li><a href="swagger-appointment.html">Appointments</a></li>
+      <li><a href="swagger-messaging.html">Messaging (Ambulance)</a></li>
     </ul>
   </li>
   <li><a href="searchparameters.html">Search Parameters</a></li>

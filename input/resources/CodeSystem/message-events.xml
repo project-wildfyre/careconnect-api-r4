@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+    <id value="message-events"/>
+    <url value="https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events"/>
+    <identifier>
+        <system value="http://fhir.gmdigitalplatforms.nhs.uk/identifiers/codesystems"/>
+        <value value="message-events"/>
+    </identifier>
+
+    <version value="4.0.0"/>
+
+    <name value="Message Events"/>
+    <title value="Message Events"/>
+    <status value="draft"/>
+    <experimental value="true"/>
+    <date value="2020-01-28"/>
+    <publisher value="NHS Greater Manchester"/>
+    <contact>
+        <name value="FHIR project team"/>
+        <telecom>
+            <system value="url"/>
+            <value value="http://hl7.org/fhir"/>
+        </telecom>
+    </contact>
+    <description value="NHS Greater Manchester Messages"/>
+    <caseSensitive value="true"/>
+    <content value="complete"/>
+    <concept>
+        <code value="unsolicited-observation"/>
+        <display value="Unsolicited transmission of an observation message"/>
+    </concept>
+    <concept>
+        <code value="notification-admit"/>
+        <display value="Admission Notification"/>
+    </concept>
+    <concept>
+        <code value="notification-discharge"/>
+        <display value="Discharge Notification"/>
+    </concept>
+</CodeSystem>

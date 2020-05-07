@@ -31,6 +31,11 @@
                 "schema": {
                   "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
                 }
+              },
+              "application/fhir+xml": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/OperationOutcome.xsd"
+                }
               }
             }
           },
@@ -41,6 +46,11 @@
                 "schema": {
                   "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/CapabilityStatement"
                 }
+              },
+              "application/fhir+xml": {
+                "schema": {
+                  "$ref": "https://hl7.org/fhir/R4/CapabilityStatement.xsd"
+                }
               }
             }
           }
@@ -54,69 +64,6 @@
           },
           {
             "$ref": "#/components/parameters/summary"
-          },
-          {
-            "$ref": "#/components/parameters/elements"
-          }
-        ]
-      }
-    },
-    "/Bundle": {
-      "summary": "Manager for resources of type Bundle",
-      "description": "The Manager for resources of type Bundle: provides services to manage the collection of all the Bundle instances",
-      "post": {
-        "summary": "Create a new resource",
-        "operationId": "createBundle",
-        "requestBody": {
-          "description": "The new state of the resource",
-          "required": true,
-          "content": {
-            "application/fhir+json": {
-              "schema": {
-                "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
-              }
-            }
-          }
-        },
-        "responses": {
-          "default": {
-            "description": "Error, with details",
-            "content": {
-              "application/fhir+json": {
-                "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
-                }
-              }
-            }
-          },
-          "200": {
-            "description": "the resource being returned after being updated",
-            "headers": {
-              "ETag": {
-                "description": "Version from Resource.meta.version as a weak ETag",
-                "schema": {
-                  "type": "string"
-                }
-              }
-            },
-            "content": {
-              "application/fhir+json": {
-                "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
-                }
-              }
-            }
-          }
-        },
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/summary"
-          },
-          {
-            "$ref": "#/components/parameters/format"
-          },
-          {
-            "$ref": "#/components/parameters/pretty"
           },
           {
             "$ref": "#/components/parameters/elements"

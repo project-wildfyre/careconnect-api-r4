@@ -12,7 +12,7 @@
   <title value="Care Connect API"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2020-05-04T10:16:19+01:00"/>
+  <date value="2020-05-07T08:47:24+01:00"/>
   <publisher value="mayfield-is.co.uk"/>
   <contact>
     <telecom>
@@ -313,6 +313,19 @@
       <name value="PDS API"/>
       <description value="PDS API"/>
     </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MessageDefinition"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="MessageDefinition-notification-discharge.html"/>
+      </extension>
+      <reference>
+        <reference value="MessageDefinition/notification-discharge"/>
+      </reference>
+      <name value="Discharge Notification"/>
+      <description value="Discharge Notification"/>
+    </resource>
     <page>
       <nameUrl value="toc.html"/>
       <title value="Table of Contents"/>
@@ -363,8 +376,13 @@
         <generation value="html"/>
       </page>
       <page>
+        <nameUrl value="swagger-messaging.html"/>
+        <title value="OpenAPI Messaging"/>
+        <generation value="html"/>
+      </page>
+      <page>
         <nameUrl value="searchparameters.html"/>
-        <title value="Search Paramters"/>
+        <title value="Search Parameters"/>
         <generation value="markdown"/>
       </page>
     </page>

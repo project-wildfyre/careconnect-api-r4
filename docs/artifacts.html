@@ -37,8 +37,8 @@
   </head>
   <body>
 
-    <style type="text/css">h2{--heading-prefix:"11"}
-    h3,h4,h5,h6{--heading-prefix:"11.0"}</style>
+    <style type="text/css">h2{--heading-prefix:"12"}
+    h3,h4,h5,h6{--heading-prefix:"12.0"}</style>
     <div id="segment-header" class="segment">    <!-- segment-header -->
       <div class="container">    <!-- container -->
         
@@ -85,7 +85,8 @@
       <li><a href="swagger-pds.html">PDS Test</a></li>
       <li><a href="swagger-foundation.html">PAS</a></li>
       <li><a href="swagger-document.html">EDMS</a></li>
-      <li><a href="swagger-appointment.html">Messaging (TIE)</a></li>
+      <li><a href="swagger-appointment.html">Appointments</a></li>
+      <li><a href="swagger-messaging.html">Messaging (Ambulance)</a></li>
     </ul>
   </li>
   <li><a href="searchparameters.html">Search Parameters</a></li>
@@ -127,6 +128,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <ul>
       <li>
          <a href="#1">Behavior: Capability Statements</a>
+      </li>
+      <li>
+         <a href="#2">Behavior: Message Definitions</a>
       </li>
    </ul>
 </div>
@@ -196,6 +200,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tbody>
       </table>
    </p>
+   <a name="2"> </a>
+   <h3>Behavior: Message Definitions </h3>
+   <p>These define the types of messages that can be sent and/or received by systems complying with this implementation guide</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="MessageDefinition-notification-discharge.html" title="MessageDefinition/notification-discharge">Discharge Notification</a>
+               </td>
+               <td>Discharge Notification</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
 </div>
 
 </div>
@@ -208,8 +228,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <div igtool="footer" id="segment-footer" class="segment">    <!-- segment-footer -->
     <div class="container">    <!-- container -->
       <div class="inner-wrapper">
-        <p><a name="c39a3a98-c87d-48ae-86bb-08d11e0a28aa">​</a>
-          IG &copy; 2020+ <a style="color: #81BEF7" href="kevin.mayfield@mayfield-is.co.uk">mayfield-is.co.uk</a>.  Package careconnect.api.r4#4.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, May 4, 2020 10:16+0100">2020-05-04</span>
+        <p><a name="3eebdf16-63a5-48e7-bf21-c30008dc37eb">​</a>
+          IG &copy; 2020+ <a style="color: #81BEF7" href="kevin.mayfield@mayfield-is.co.uk">mayfield-is.co.uk</a>.  Package careconnect.api.r4#4.0.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, May 7, 2020 08:47+0100">2020-05-07</span>
           <br/>
           <span style="color: #FFFF77">
                       Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |

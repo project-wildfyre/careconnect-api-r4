@@ -1,22 +1,42 @@
 <CapabilityStatement xmlns="http://hl7.org/fhir">
     <id value="messaging"/>
     <version value="3.0.0"/>
-    <name value="Care Connect TIE API Capability Statement"/>
+    <name value="Messaging support Capability Statement"/>
     <status value="active"/>
     <publisher value="mayfield-is.co.uk"/>
-    <description value="Minimal conformance requirements for a TIE Server exposing a FHIR RESTful API. This would typically be found on Trust Integration Systems"/>
+    <description value="Conformance requirements for Message endpoint"/>
     <kind value="instance"/>
     <fhirVersion value="4.0.1"/>
     <format value="application/fhir+json"/>
+    <format value="application/fhir+xml"/>
     <rest>
         <mode value="server"/>
-        <resource>
-            <type value="Bundle"/>
-            <profile value="http://hl7.org/fhir/StructureDefinition/Bundle"/>
-            <interaction>
-                <code value="create"/>
-            </interaction>
-            <conditionalUpdate value="false"/>
-        </resource>
+        <security>
+            <service>
+                <coding>
+                    <system value="http://terminology.hl7.org/CodeSystem/restful-security-service"/>
+                    <code value="OAuth"/>
+                    <display value="OAuth2 Token"/>
+                </coding>
+            </service>
+        </security>
+        <operation>
+            <name value="validate"/>
+            <definition value="http://hl7.org/fhir/OperationDefinition/Resource-validate"/>
+        </operation>
+        <operation>
+            <name value="process-message"/>
+            <definition value="http://hl7.org/fhir/OperationDefinition/MessageHeader-process-message"/>
+        </operation>
     </rest>
+    <messaging>
+        <supportedMessage>
+            <mode value="receiver" />
+            <definition value="https://project-wildfyre.github.io/careconnect-api-r4/MessageDefinition/notification-admit"/>
+        </supportedMessage>
+        <supportedMessage>
+            <mode value="receiver" />
+            <definition value="https://project-wildfyre.github.io/careconnect-api-r4/MessageDefinition/notification-discharge"/>
+        </supportedMessage>
+    </messaging>
 </CapabilityStatement>

@@ -1,0 +1,25 @@
+<MessageDefinition xmlns="http://hl7.org/fhir">
+    <id value="notification-discharge"></id>
+    <url value="https://project-wildfyre.github.io/careconnect-api-r4/MessageDefinition/notification-discharge"></url>
+    <identifier>
+        <system value="https://tools.ietf.org/html/rfc4122"></system>
+        <value value="c81b88dc-760e-4b1e-9cdb-c5f853630664"></value>
+    </identifier>
+    <version value="1.0.0"></version>
+    <title value="Patient Discharge Notification"></title>
+    <status value="active"></status>
+    <date value="2019-08-22T12:49:51.688+01:00"></date>
+    <copyright value="Copyright © 2020 Project Wildfyre"></copyright>
+    <eventCoding>
+        <system value="https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events"></system>
+        <code value="notification-discharge"></code>
+        <display value="Notification Discharge"></display>
+    </eventCoding>
+    <category value="notification"></category>
+    <focus>
+        <code value="Encounter"></code>
+        <profile value="https://fhir.nhs.uk/R4/StructureDefinition/UKCore-Encounter"/>
+        <min value="1"/>
+        <max value="1"/>
+    </focus>
+</MessageDefinition>
