@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Start by finding all references to "myig" and updating to appropriate text for your IG, including changing realm -->
 <ImplementationGuide xmlns="http://hl7.org/fhir" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas-r5/fhir-single.xsd">
-  <id value="careconnect-api-r4"/>
+  <id value="careconnect.api.r4"/>
   <url value="https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4"/>
   <version value="4.0.0"/>
   <name value="Care Connect API"/>
@@ -109,6 +109,27 @@
       </reference>
       <name value="Discharge Notification"/>
       <description value="Discharge Notification"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="MessageDefinition/notification-admit"/>
+      </reference>
+      <name value="Admit Notification"/>
+      <description value="Admit Notification"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="MessageDefinition/order-medication-request"/>
+      </reference>
+      <name value="Order Medication Request"/>
+      <description value="Order Medication Request"/>
+    </resource>
+    <resource>
+      <reference>
+        <reference value="CodeSystem/message-events"/>
+      </reference>
+      <name value="Message Events"/>
+      <description value="Message Events"/>
     </resource>
     <page>
       <!-- The root will always be toc.html - the template will force it if you don't do it -->

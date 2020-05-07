@@ -3,13 +3,13 @@
   "id": "messaging",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect TIE API Capability Statement</h2><div><p>Minimal conformance requirements for a TIE Server exposing a FHIR RESTful API. This would typically be found on Trust Integration Systems</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr></table></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Messaging support Capability Statement</h2><div><p>Conformance requirements for Message endpoint</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr></table></div>"
   },
   "url": "https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/messaging",
   "version": "4.0.0",
-  "name": "Care Connect TIE API Capability Statement",
+  "name": "Messaging support Capability Statement",
   "status": "active",
-  "date": "2020-05-07T08:47:24+01:00",
+  "date": "2020-05-07T09:39:04+01:00",
   "publisher": "mayfield-is.co.uk",
   "contact": [
     {
@@ -21,7 +21,7 @@
       ]
     }
   ],
-  "description": "Minimal conformance requirements for a TIE Server exposing a FHIR RESTful API. This would typically be found on Trust Integration Systems",
+  "description": "Conformance requirements for Message endpoint",
   "jurisdiction": [
     {
       "coding": [
@@ -32,7 +32,7 @@
       ]
     }
   ],
-  "kind": "instance",
+  "kind": "requirements",
   "fhirVersion": "4.0.1",
   "format": [
     "application/fhir+json",
@@ -71,11 +71,11 @@
       "supportedMessage": [
         {
           "mode": "receiver",
-          "definition": "https://project-wildfyre.github.io/careconnect-messaging-r4/MessageDefinition/notification-admit"
+          "definition": "https://project-wildfyre.github.io/careconnect-api-r4/MessageDefinition/notification-admit"
         },
         {
           "mode": "receiver",
-          "definition": "https://project-wildfyre.github.io/careconnect-messaging-r4/MessageDefinition/notification-discharge"
+          "definition": "https://project-wildfyre.github.io/careconnect-api-r4/MessageDefinition/notification-discharge"
         }
       ]
     }

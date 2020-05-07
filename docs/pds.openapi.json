@@ -13,7 +13,7 @@
     }
   },
   "externalDocs": {
-    "url": "https://fhir.nhs.uk/R4/CapabilityStatement/PDSAPI-CapabilityStatement",
+    "url": "https://fhir.nhs.uk/R4/CapabilityStatement/pds",
     "description": "FHIR CapabilityStatement"
   },
   "paths": {

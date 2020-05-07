@@ -38,4 +38,8 @@
         <code value="notification-discharge"/>
         <display value="Discharge Notification"/>
     </concept>
+    <concept>
+        <code value="order-medication-request"/>
+        <display value="Order Medication Request"/>
+    </concept>
 </CodeSystem>

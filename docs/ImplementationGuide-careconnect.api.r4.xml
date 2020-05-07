@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="careconnect-api-r4"/>
+  <id value="careconnect.api.r4"/>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Care Connect API</h2><p>The official URL for this implementation guide is: </p><pre>https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4</pre><div><p>Demonstration of Care Connect R4 Implementation Guide to support API Management</p>
 </div></div>
@@ -12,7 +12,7 @@
   <title value="Care Connect API"/>
   <status value="draft"/>
   <experimental value="false"/>
-  <date value="2020-05-07T08:47:24+01:00"/>
+  <date value="2020-05-07T09:39:04+01:00"/>
   <publisher value="mayfield-is.co.uk"/>
   <contact>
     <telecom>
@@ -325,6 +325,45 @@
       </reference>
       <name value="Discharge Notification"/>
       <description value="Discharge Notification"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MessageDefinition"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="MessageDefinition-notification-admit.html"/>
+      </extension>
+      <reference>
+        <reference value="MessageDefinition/notification-admit"/>
+      </reference>
+      <name value="Admit Notification"/>
+      <description value="Admit Notification"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="MessageDefinition"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="MessageDefinition-order-medication-request.html"/>
+      </extension>
+      <reference>
+        <reference value="MessageDefinition/order-medication-request"/>
+      </reference>
+      <name value="Order Medication Request"/>
+      <description value="Order Medication Request"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <extension url="http://hl7.org/fhir/StructureDefinition/implementationguide-page">
+        <valueUri value="CodeSystem-message-events.html"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/message-events"/>
+      </reference>
+      <name value="Message Events"/>
+      <description value="Message Events"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>

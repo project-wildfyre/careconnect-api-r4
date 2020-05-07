@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="message-events"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>Message Events</h2><div><p>NHS Greater Manchester Messages</p>
+</div><p>This code system https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">unsolicited-observation<a name="message-events-unsolicited-observation"> </a></td><td>Unsolicited transmission of an observation message</td><td/></tr><tr><td style="white-space:nowrap">notification-admit<a name="message-events-notification-admit"> </a></td><td>Admission Notification</td><td/></tr><tr><td style="white-space:nowrap">notification-discharge<a name="message-events-notification-discharge"> </a></td><td>Discharge Notification</td><td/></tr><tr><td style="white-space:nowrap">order-medication-request<a name="message-events-order-medication-request"> </a></td><td>Order Medication Request</td><td/></tr></table></div>
+  </text>
+  <url value="https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events"/>
+  <identifier>
+    <system value="http://fhir.gmdigitalplatforms.nhs.uk/identifiers/codesystems"/>
+    <value value="message-events"/>
+  </identifier>
+  <version value="4.0.0"/>
+  <name value="Message Events"/>
+  <title value="Message Events"/>
+  <status value="draft"/>
+  <experimental value="true"/>
+  <date value="2020-01-28T00:00:00+00:00"/>
+  <publisher value="mayfield-is.co.uk"/>
+  <contact>
+    <telecom>
+      <system value="email"/>
+      <value value="kevin.mayfield@mayfield-is.co.uk"/>
+    </telecom>
+  </contact>
+  <description value="NHS Greater Manchester Messages"/>
+  <jurisdiction>
+    <coding>
+      <system value="http://unstats.un.org/unsd/methods/m49/m49.htm"/>
+      <code value="826"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <concept>
+    <code value="unsolicited-observation"/>
+    <display value="Unsolicited transmission of an observation message"/>
+  </concept>
+  <concept>
+    <code value="notification-admit"/>
+    <display value="Admission Notification"/>
+  </concept>
+  <concept>
+    <code value="notification-discharge"/>
+    <display value="Discharge Notification"/>
+  </concept>
+  <concept>
+    <code value="order-medication-request"/>
+    <display value="Order Medication Request"/>
+  </concept>
+</CodeSystem>

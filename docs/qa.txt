@@ -1,26 +1,28 @@
 ﻿Care Connect API : Validation Results
 =========================================
 
-err = 3, warn = 11, info = 1
+err = 5, warn = 16, info = 0
 IG Publisher Version: v1.0.89-SNAPSHOT
-Generated Thu May 07 08:47:39 BST 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
+Generated Thu May 07 09:39:19 BST 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
 
- Build Errors : 55 / 1
+ Build Errors : 67 / 0
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\appointment : 0 / 1
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\clinical : 0 / 1
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\diagnostics : 0 / 1
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\document : 0 / 1
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\foundation : 0 / 1
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\medication : 0 / 1
- C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\messaging : 1 / 2
+ C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\messaging : 0 / 2
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\pds : 2 / 0
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\workflow : 0 / 1
- C:\Development\Wildfyre\careconnect-api-r4\input\resources\careconnect-api-ig : 0 / 1
+ C:\Development\Wildfyre\careconnect-api-r4\input\resources\careconnect-api-ig : 3 / 1
+ C:\Development\Wildfyre\careconnect-api-r4\input\resources\codesystem\message-events : 0 / 1
+ C:\Development\Wildfyre\careconnect-api-r4\input\resources\messagedefinition\notification-admit : 0 / 2
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\messagedefinition\notification-discharge : 0 / 2
+ C:\Development\Wildfyre\careconnect-api-r4\input\resources\messagedefinition\order-medication-request : 0 / 1
 </table>
 == n/a ==
 ERROR: ImplementationGuide.definition.parameter[21].value: Supressed messages file is not using the new format (see https://confluence.hl7.org/display/FHIR/Implementation+Guide+Parameters)
-WARNING: ImplementationGuide.id: The Implementation Guide Resource id should be careconnect.api.r4
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-appointment.html#/html/body/div/div/div/p/a at Line 166, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-appointment.json.html#/html/body/div/div/div/p/a at Line 288, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-appointment.ttl.html#/html/body/div/div/div/p/a at Line 276, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
@@ -48,20 +50,32 @@ ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-med
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-messaging.html#/html/body/div/div/div/p/a at Line 166, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-messaging.json.html#/html/body/div/div/div/p/a at Line 231, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-messaging.ttl.html#/html/body/div/div/div/p/a at Line 237, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-messaging.xml.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-messaging.xml.html#/html/body/div/div/div/p/a at Line 216, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-pds.html#/html/body/div/div/div/p/a at Line 166, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-pds.json.html#/html/body/div/div/div/p/a at Line 277, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-pds.ttl.html#/html/body/div/div/div/p/a at Line 273, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-pds.xml.html#/html/body/div/div/div/p/a at Line 248, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-pds.xml.html#/html/body/div/div/div/p/a at Line 247, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-workflow.html#/html/body/div/div/div/p/a at Line 166, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-workflow.json.html#/html/body/div/div/div/p/a at Line 312, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-workflow.ttl.html#/html/body/div/div/div/p/a at Line 295, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CapabilityStatement-workflow.xml.html#/html/body/div/div/div/p/a at Line 297, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CodeSystem-message-events.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CodeSystem-message-events.json.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CodeSystem-message-events.ttl.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CodeSystem-message-events.xml.html#/html/body/div/div/div/p/a at Line 202, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.json.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.ttl.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.xml.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.json.html#/html/body/div/div/div/p/a at Line 203, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.ttl.html#/html/body/div/div/div/p/a at Line 211, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.xml.html#/html/body/div/div/div/p/a at Line 193, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\artifacts.html#/html/body/div/div/div/p/a at Line 246, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.json.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.ttl.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.xml.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.json.html#/html/body/div/div/div/p/a at Line 208, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.ttl.html#/html/body/div/div/div/p/a at Line 216, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.xml.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\artifacts.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\encounter.html#/html/body/div/div/div/p/a at Line 172, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\index.html#/html/body/div/div/div/div/div/p/a at Line 138, column 26: The link 'https://project-wildfyre.github.io/uk-testcore-r4/' for "UK Core R4 Conformance Resources - Unofficial" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\index.html#/html/body/div/div/div/p/a at Line 163, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
@@ -89,15 +103,24 @@ WARNING: CapabilityStatement/foundation: CapabilityStatement: cpb-0: Name should
 WARNING: CapabilityStatement/medication: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == C:\Development\Wildfyre\careconnect-api-r4\input\resources\CapabilityStatement\messaging.xml ==
 WARNING: CapabilityStatement/messaging: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-ERROR: CapabilityStatement/messaging: CapabilityStatement: cpb-14: If kind = instance, implementation must be present and software may be present [(kind != 'instance') or implementation.exists()]
 WARNING: CapabilityStatement/messaging: CapabilityStatement.rest[0].security.service[0]: Display Name for http://terminology.hl7.org/CodeSystem/restful-security-service#OAuth should be one of 'OAuth' instead of 'OAuth2 Token'
 == C:\Development\Wildfyre\careconnect-api-r4\input\resources\CapabilityStatement\pds.xml ==
-ERROR: https://fhir.nhs.uk/R4/CapabilityStatement/PDSAPI-CapabilityStatement: Conformance resource C:\Development\Wildfyre\careconnect-api-r4\input\resources\CapabilityStatement\pds.xml - the canonical URL (https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/pds) does not match the URL (https://fhir.nhs.uk/R4/CapabilityStatement/PDSAPI-CapabilityStatement)
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\pds: URL Mismatch https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/pds vs https://fhir.nhs.uk/R4/CapabilityStatement/PDSAPI-CapabilityStatement
+ERROR: https://fhir.nhs.uk/R4/CapabilityStatement/pds: Conformance resource C:\Development\Wildfyre\careconnect-api-r4\input\resources\CapabilityStatement\pds.xml - the canonical URL (https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/pds) does not match the URL (https://fhir.nhs.uk/R4/CapabilityStatement/pds)
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\pds: URL Mismatch https://project-wildfyre.github.io/careconnect-api-r4/CapabilityStatement/pds vs https://fhir.nhs.uk/R4/CapabilityStatement/pds
 == C:\Development\Wildfyre\careconnect-api-r4\input\resources\CapabilityStatement\workflow.xml ==
 WARNING: CapabilityStatement/workflow: CapabilityStatement: cpb-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
 == C:\Development\Wildfyre\careconnect-api-r4\input\resources\careconnect-api-ig.xml ==
-WARNING: ImplementationGuide/careconnect-api-r4: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+ERROR: https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4: Conformance resource C:\Development\Wildfyre\careconnect-api-r4\input\resources\careconnect-api-ig.xml - the canonical URL (https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect.api.r4) does not match the URL (https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4)
+ERROR: ImplementationGuide.url: Resource id/url mismatch: careconnect.api.r4/https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4
+WARNING: ImplementationGuide/careconnect.api.r4: ImplementationGuide: ig-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\input\resources\careconnect-api-ig: URL Mismatch https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect.api.r4 vs https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4
+== C:\Development\Wildfyre\careconnect-api-r4\input\resources\CodeSystem\message-events.xml ==
+WARNING: CodeSystem/message-events: CodeSystem: csd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+== C:\Development\Wildfyre\careconnect-api-r4\input\resources\MessageDefinition\notification-admit.xml ==
+WARNING: MessageDefinition/notification-admit: MessageDefinition: msd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
+WARNING: MessageDefinition/notification-admit: MessageDefinition.event.ofType(Coding): Display Name for https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events#notification-admit should be one of 'Admission Notification' instead of 'Notification Admit'
 == C:\Development\Wildfyre\careconnect-api-r4\input\resources\MessageDefinition\notification-discharge.xml ==
 WARNING: MessageDefinition/notification-discharge: MessageDefinition: msd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]
-INFORMATION: MessageDefinition/notification-discharge: MessageDefinition.event.ofType(Coding): Code System URI "https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events" is unknown so the code cannot be validated
+WARNING: MessageDefinition/notification-discharge: MessageDefinition.event.ofType(Coding): Display Name for https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events#notification-discharge should be one of 'Discharge Notification' instead of 'Notification Discharge'
+== C:\Development\Wildfyre\careconnect-api-r4\input\resources\MessageDefinition\order-medication-request.xml ==
+WARNING: MessageDefinition/order-medication-request: MessageDefinition: msd-0: Name should be usable as an identifier for the module by machine processing applications such as code generation [name.matches('[A-Z]([A-Za-z0-9_]){0,254}')]

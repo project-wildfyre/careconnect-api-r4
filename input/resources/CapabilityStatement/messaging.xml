@@ -5,7 +5,7 @@
     <status value="active"/>
     <publisher value="mayfield-is.co.uk"/>
     <description value="Conformance requirements for Message endpoint"/>
-    <kind value="instance"/>
+    <kind value="requirements"/>
     <fhirVersion value="4.0.1"/>
     <format value="application/fhir+json"/>
     <format value="application/fhir+xml"/>

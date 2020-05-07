@@ -16,7 +16,7 @@
   fhir:CapabilityStatement.version [ fhir:value "4.0.0"];
   fhir:CapabilityStatement.name [ fhir:value "Care Connect Clinical Capability Statement"];
   fhir:CapabilityStatement.status [ fhir:value "active"];
-  fhir:CapabilityStatement.date [ fhir:value "2020-05-07T08:47:24+01:00"^^xsd:dateTime];
+  fhir:CapabilityStatement.date [ fhir:value "2020-05-07T09:39:04+01:00"^^xsd:dateTime];
   fhir:CapabilityStatement.publisher [ fhir:value "mayfield-is.co.uk"];
   fhir:CapabilityStatement.contact [
      fhir:index 0;

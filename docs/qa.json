@@ -3,10 +3,10 @@
   "name": "Care Connect API",
   "package-id": "careconnect.api.r4",
   "ig-ver": "4.0.0",
-  "date": "Thu, 07 May, 2020 08:47:24 +0100",
-  "errs": 3,
-  "warnings": 11,
-  "hints": 1,
+  "date": "Thu, 07 May, 2020 09:39:04 +0100",
+  "errs": 5,
+  "warnings": 16,
+  "hints": 0,
   "version": "4.0.1",
   "tool": "4.4.0 (3)"
 }

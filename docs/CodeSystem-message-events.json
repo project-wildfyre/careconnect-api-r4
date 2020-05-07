@@ -1,0 +1,63 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "message-events",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Message Events</h2><div><p>NHS Greater Manchester Messages</p>\n</div><p>This code system https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">unsolicited-observation<a name=\"message-events-unsolicited-observation\"> </a></td><td>Unsolicited transmission of an observation message</td><td/></tr><tr><td style=\"white-space:nowrap\">notification-admit<a name=\"message-events-notification-admit\"> </a></td><td>Admission Notification</td><td/></tr><tr><td style=\"white-space:nowrap\">notification-discharge<a name=\"message-events-notification-discharge\"> </a></td><td>Discharge Notification</td><td/></tr><tr><td style=\"white-space:nowrap\">order-medication-request<a name=\"message-events-order-medication-request\"> </a></td><td>Order Medication Request</td><td/></tr></table></div>"
+  },
+  "url": "https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events",
+  "identifier": [
+    {
+      "system": "http://fhir.gmdigitalplatforms.nhs.uk/identifiers/codesystems",
+      "value": "message-events"
+    }
+  ],
+  "version": "4.0.0",
+  "name": "Message Events",
+  "title": "Message Events",
+  "status": "draft",
+  "experimental": true,
+  "date": "2020-01-28T00:00:00+00:00",
+  "publisher": "mayfield-is.co.uk",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "email",
+          "value": "kevin.mayfield@mayfield-is.co.uk"
+        }
+      ]
+    }
+  ],
+  "description": "NHS Greater Manchester Messages",
+  "jurisdiction": [
+    {
+      "coding": [
+        {
+          "system": "http://unstats.un.org/unsd/methods/m49/m49.htm",
+          "code": "826"
+        }
+      ]
+    }
+  ],
+  "caseSensitive": true,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "unsolicited-observation",
+      "display": "Unsolicited transmission of an observation message"
+    },
+    {
+      "code": "notification-admit",
+      "display": "Admission Notification"
+    },
+    {
+      "code": "notification-discharge",
+      "display": "Discharge Notification"
+    },
+    {
+      "code": "order-medication-request",
+      "display": "Order Medication Request"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "careconnect-api-r4",
+  "id": "careconnect.api.r4",
   "text": {
     "status": "generated",
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>Care Connect API</h2><p>The official URL for this implementation guide is: </p><pre>https://project-wildfyre.github.io/careconnect-api-r4/ImplementationGuide/careconnect-api-r4</pre><div><p>Demonstration of Care Connect R4 Implementation Guide to support API Management</p>\n</div></div>"
@@ -11,7 +11,7 @@
   "title": "Care Connect API",
   "status": "draft",
   "experimental": false,
-  "date": "2020-05-07T08:47:24+01:00",
+  "date": "2020-05-07T09:39:04+01:00",
   "publisher": "mayfield-is.co.uk",
   "contact": [
     {
@@ -479,6 +479,57 @@
         },
         "name": "Discharge Notification",
         "description": "Discharge Notification"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MessageDefinition"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "MessageDefinition-notification-admit.html"
+          }
+        ],
+        "reference": {
+          "reference": "MessageDefinition/notification-admit"
+        },
+        "name": "Admit Notification",
+        "description": "Admit Notification"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "MessageDefinition"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "MessageDefinition-order-medication-request.html"
+          }
+        ],
+        "reference": {
+          "reference": "MessageDefinition/order-medication-request"
+        },
+        "name": "Order Medication Request",
+        "description": "Order Medication Request"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          },
+          {
+            "url": "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+            "valueUri": "CodeSystem-message-events.html"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/message-events"
+        },
+        "name": "Message Events",
+        "description": "Message Events"
       }
     ],
     "page": {
