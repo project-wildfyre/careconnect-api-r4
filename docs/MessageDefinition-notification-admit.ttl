@@ -39,7 +39,6 @@
        fhir:Coding.code [ fhir:value "826" ]
      ]
   ];
-  fhir:MessageDefinition.copyright [ fhir:value "Copyright © 2020 Project Wildfyre"];
   fhir:MessageDefinition.eventCoding [
      fhir:Coding.system [ fhir:value "https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events" ];
      fhir:Coding.code [ fhir:value "notification-admit" ];

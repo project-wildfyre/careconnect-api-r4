@@ -37,7 +37,6 @@
       ]
     }
   ],
-  "copyright": "Copyright © 2020 Project Wildfyre",
   "eventCoding": {
     "system": "https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events",
     "code": "notification-admit",

@@ -9,7 +9,6 @@
     <title value="Patient Discharge Notification"></title>
     <status value="active"></status>
     <date value="2019-08-22T12:49:51.688+01:00"></date>
-    <copyright value="Copyright © 2020 Project Wildfyre"></copyright>
     <eventCoding>
         <system value="https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events"></system>
         <code value="order-medication-request"></code>

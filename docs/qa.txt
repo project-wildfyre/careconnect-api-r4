@@ -2,8 +2,8 @@
 =========================================
 
 err = 5, warn = 16, info = 0
-IG Publisher Version: v1.0.89-SNAPSHOT
-Generated Thu May 07 09:39:19 BST 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
+IG Publisher Version: v1.0.89-SNAPSHOT Out of date - current version is v1.0.94-SNAPSHOT
+Generated Thu May 14 12:17:50 BST 2020. FHIR version 4.0.1 for careconnect.api.r4#4.0.0 (canonical = https://project-wildfyre.github.io/careconnect-api-r4)
 
  Build Errors : 67 / 0
  C:\Development\Wildfyre\careconnect-api-r4\input\resources\capabilitystatement\appointment : 0 / 1
@@ -64,17 +64,17 @@ ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CodeSystem-message-even
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CodeSystem-message-events.ttl.html#/html/body/div/div/div/p/a at Line 217, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\CodeSystem-message-events.xml.html#/html/body/div/div/div/p/a at Line 202, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.json.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.ttl.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.xml.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.json.html#/html/body/div/div/div/p/a at Line 208, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-admit.xml.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.json.html#/html/body/div/div/div/p/a at Line 209, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.ttl.html#/html/body/div/div/div/p/a at Line 219, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.xml.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.json.html#/html/body/div/div/div/p/a at Line 208, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.ttl.html#/html/body/div/div/div/p/a at Line 218, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-notification-discharge.xml.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.html#/html/body/div/div/div/p/a at Line 165, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.json.html#/html/body/div/div/div/p/a at Line 208, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.ttl.html#/html/body/div/div/div/p/a at Line 216, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
-ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.xml.html#/html/body/div/div/div/p/a at Line 199, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.json.html#/html/body/div/div/div/p/a at Line 207, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.ttl.html#/html/body/div/div/div/p/a at Line 215, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
+ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\MessageDefinition-order-medication-request.xml.html#/html/body/div/div/div/p/a at Line 198, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\artifacts.html#/html/body/div/div/div/p/a at Line 279, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\encounter.html#/html/body/div/div/div/p/a at Line 172, column 28: The link 'kevin.mayfield@mayfield-is.co.uk' for "mayfield-is.co.uk" cannot be resolved
 ERROR: C:\Development\Wildfyre\careconnect-api-r4\output\index.html#/html/body/div/div/div/div/div/p/a at Line 138, column 26: The link 'https://project-wildfyre.github.io/uk-testcore-r4/' for "UK Core R4 Conformance Resources - Unofficial" cannot be resolved

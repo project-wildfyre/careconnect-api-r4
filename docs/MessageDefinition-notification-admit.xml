@@ -27,7 +27,6 @@
       <code value="826"/>
     </coding>
   </jurisdiction>
-  <copyright value="Copyright &#xA9; 2020 Project Wildfyre"/>
   <eventCoding>
     <system value="https://project-wildfyre.github.io/careconnect-api-r4/CodeSystem/message-events"/>
     <code value="notification-admit"/>
